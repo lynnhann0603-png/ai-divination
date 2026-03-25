@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="60%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#4CAF50"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Sun/Angel Raphael -->
+  <circle cx="150" cy="100" r="35" fill="#FFD700" opacity="0.3"/>
+  <!-- Angel figure -->
+  <circle cx="150" cy="95" r="16" fill="#FFDAB9"/>
+  <path d="M134,93 Q140,80 150,78 Q160,80 166,93" fill="#DAA520"/>
+  <circle cx="145" cy="94" r="2" fill="#333"/><circle cx="155" cy="94" r="2" fill="#333"/>
+  <!-- Angel wings -->
+  <path d="M134,100 Q110,80 105,100 Q110,110 130,108" fill="#DDA0DD" opacity="0.6"/>
+  <path d="M166,100 Q190,80 195,100 Q190,110 170,108" fill="#DDA0DD" opacity="0.6"/>
+  <!-- Angel robe -->
+  <path d="M138,110 L130,170 L170,170 L162,110Z" fill="#9370DB" opacity="0.7"/>
+  <!-- Hands blessing -->
+  <path d="M135,135 L120,160 M165,135 L180,160" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
+  <!-- Tree of Knowledge (right) -->
+  <rect x="220" y="200" width="12" height="120" fill="#5B3A1A"/>
+  <circle cx="226" cy="185" r="30" fill="#228B22" opacity="0.8"/>
+  <!-- Apples -->
+  <circle cx="215" cy="180" r="4" fill="#E8352D"/><circle cx="230" cy="175" r="4" fill="#E8352D"/>
+  <circle cx="238" cy="185" r="4" fill="#E8352D"/><circle cx="220" cy="195" r="4" fill="#E8352D"/>
+  <!-- Snake on tree -->
+  <path d="M220,210 Q215,195 225,185 Q235,175 225,170" fill="none" stroke="#FF6600" stroke-width="2.5"/>
+  <!-- Tree of Life (left) -->
+  <rect x="68" y="200" width="12" height="120" fill="#5B3A1A"/>
+  <circle cx="74" cy="185" r="28" fill="#228B22" opacity="0.8"/>
+  <!-- Flames -->
+  <path d="M68,180 Q60,165 68,175" fill="#FF4500" opacity="0.5"/>
+  <path d="M80,175 Q88,160 80,170" fill="#FF4500" opacity="0.5"/>
+  <!-- Man (right) -->
+  <circle cx="200" cy="260" r="15" fill="#FFDAB9"/>
+  <rect x="188" y="275" width="24" height="60" fill="#FFDAB9" opacity="0.7"/>
+  <line x1="195" y1="335" x2="192" y2="375" stroke="#FFDAB9" stroke-width="6"/>
+  <line x1="205" y1="335" x2="208" y2="375" stroke="#FFDAB9" stroke-width="6"/>
+  <!-- Woman (left) -->
+  <circle cx="100" cy="260" r="15" fill="#FFDAB9"/>
+  <path d="M85,258 Q90,245 100,242 Q110,245 115,258" fill="#DAA520"/>
+  <rect x="88" y="275" width="24" height="60" fill="#FFDAB9" opacity="0.7"/>
+  <line x1="95" y1="335" x2="92" y2="375" stroke="#FFDAB9" stroke-width="6"/>
+  <line x1="105" y1="335" x2="108" y2="375" stroke="#FFDAB9" stroke-width="6"/>
+  <!-- Mountain between -->
+  <polygon points="130,380 150,220 170,380" fill="#8B4513" opacity="0.4"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">VI</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE LOVERS</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">恋人</text>
+</svg>

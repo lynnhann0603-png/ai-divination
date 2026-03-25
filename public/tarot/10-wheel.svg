@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4169E1"/><stop offset="100%" stop-color="#87CEEB"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Clouds -->
+  <ellipse cx="60" cy="90" rx="30" ry="15" fill="white" opacity="0.4"/>
+  <ellipse cx="240" cy="100" rx="25" ry="12" fill="white" opacity="0.4"/>
+  <ellipse cx="60" cy="380" rx="30" ry="15" fill="white" opacity="0.4"/>
+  <ellipse cx="240" cy="370" rx="25" ry="12" fill="white" opacity="0.4"/>
+  <!-- Main wheel -->
+  <circle cx="150" cy="230" r="85" fill="#FFD700" opacity="0.15"/>
+  <circle cx="150" cy="230" r="85" fill="none" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="150" cy="230" r="65" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <circle cx="150" cy="230" r="40" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <!-- Spokes -->
+  <g stroke="#FFD700" stroke-width="2">
+    <line x1="150" y1="145" x2="150" y2="315"/><line x1="65" y1="230" x2="235" y2="230"/>
+    <line x1="90" y1="170" x2="210" y2="290"/><line x1="210" y1="170" x2="90" y2="290"/>
+  </g>
+  <!-- T-Y-P-H-O-N letters -->
+  <text x="150" y="195" text-anchor="middle" font-family="serif" font-size="14" fill="#FFD700">T</text>
+  <text x="180" y="215" text-anchor="middle" font-family="serif" font-size="14" fill="#FFD700">A</text>
+  <text x="180" y="250" text-anchor="middle" font-family="serif" font-size="14" fill="#FFD700">R</text>
+  <text x="150" y="270" text-anchor="middle" font-family="serif" font-size="14" fill="#FFD700">O</text>
+  <!-- Serpent going down (left) -->
+  <path d="M80,240 Q75,260 80,280 Q90,310 85,330" fill="none" stroke="#E8352D" stroke-width="4"/>
+  <circle cx="85" cy="335" r="5" fill="#E8352D"/>
+  <!-- Anubis going up (right) -->
+  <path d="M220,280 Q225,260 218,240 Q210,220 215,200" fill="none" stroke="#333" stroke-width="4"/>
+  <circle cx="215" cy="195" r="6" fill="#333"/>
+  <path d="M210,190 L205,182 M220,190 L225,182" stroke="#333" stroke-width="1.5"/>
+  <!-- Sphinx on top -->
+  <ellipse cx="150" cy="140" rx="22" ry="12" fill="#4169E1"/>
+  <circle cx="150" cy="128" r="10" fill="#FFDAB9"/>
+  <path d="M140,125 Q150,118 160,125" fill="#1A1A4E"/>
+  <circle cx="147" cy="127" r="1.5" fill="#333"/><circle cx="153" cy="127" r="1.5" fill="#333"/>
+  <!-- Crown on sphinx -->
+  <path d="M143,118 L147,112 L150,118 L153,112 L157,118" fill="#FFD700"/>
+  <!-- Sword held by sphinx -->
+  <line x1="150" y1="135" x2="150" y2="110" stroke="#A8A8A8" stroke-width="2.5"/>
+  <line x1="144" y1="118" x2="156" y2="118" stroke="#A8A8A8" stroke-width="2"/>
+  <!-- Four corner figures -->
+  <!-- Angel (top-left) -->
+  <circle cx="40" cy="75" r="12" fill="#FFDAB9" opacity="0.5"/>
+  <path d="M30,73 Q25,65 32,60" fill="none" stroke="#DDA0DD" stroke-width="2" opacity="0.5"/>
+  <path d="M50,73 Q55,65 48,60" fill="none" stroke="#DDA0DD" stroke-width="2" opacity="0.5"/>
+  <!-- Eagle (top-right) -->
+  <ellipse cx="260" cy="75" rx="12" ry="10" fill="#DAA520" opacity="0.5"/>
+  <path d="M252,68 L260,60 L268,68" fill="none" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+  <!-- Bull (bottom-left) -->
+  <ellipse cx="40" cy="400" rx="14" ry="10" fill="#8B4513" opacity="0.4"/>
+  <path d="M30,395 Q28,388 32,385" fill="none" stroke="#8B4513" stroke-width="2" opacity="0.4"/>
+  <path d="M50,395 Q52,388 48,385" fill="none" stroke="#8B4513" stroke-width="2" opacity="0.4"/>
+  <!-- Lion (bottom-right) -->
+  <ellipse cx="260" cy="400" rx="14" ry="10" fill="#DAA520" opacity="0.4"/>
+  <circle cx="260" cy="392" r="8" fill="#B8860B" opacity="0.4"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">X</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#5B4A2A">WHEEL OF FORTUNE</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">命运之轮</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD700" opacity="0.4"/><stop offset="40%" stop-color="#87CEEB"/><stop offset="100%" stop-color="#808080"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- City skyline -->
+  <rect x="18" y="350" width="264" height="80" fill="#808080" opacity="0.3"/>
+  <rect x="30" y="340" width="25" height="90" fill="#696969" opacity="0.4"/>
+  <rect x="70" y="330" width="20" height="100" fill="#696969" opacity="0.3"/>
+  <rect x="210" y="335" width="22" height="95" fill="#696969" opacity="0.4"/>
+  <rect x="245" y="345" width="20" height="85" fill="#696969" opacity="0.3"/>
+  <!-- Stars on canopy -->
+  <g fill="#FFD700" opacity="0.7">
+    <polygon points="60,70 62,76 68,76 63,80 65,86 60,82 55,86 57,80 52,76 58,76"/>
+    <polygon points="100,60 102,66 108,66 103,70 105,76 100,72 95,76 97,70 92,66 98,66"/>
+    <polygon points="200,60 202,66 208,66 203,70 205,76 200,72 195,76 197,70 192,66 198,66"/>
+    <polygon points="240,70 242,76 248,76 243,80 245,86 240,82 235,86 237,80 232,76 238,76"/>
+  </g>
+  <!-- Chariot body -->
+  <rect x="80" y="220" width="140" height="110" rx="8" fill="#4169E1"/>
+  <rect x="80" y="220" width="140" height="110" rx="8" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <!-- Wings on chariot -->
+  <path d="M80,250 Q60,235 40,250 Q50,260 80,260" fill="#FFD700" opacity="0.6"/>
+  <path d="M220,250 Q240,235 260,250 Q250,260 220,260" fill="#FFD700" opacity="0.6"/>
+  <!-- Lingam-Yoni on chariot -->
+  <circle cx="150" cy="275" r="15" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <rect x="145" y="265" width="10" height="20" rx="3" fill="#FFD700" opacity="0.5"/>
+  <!-- Wheels -->
+  <circle cx="95" cy="340" r="20" fill="#8B4513"/>
+  <circle cx="95" cy="340" r="15" fill="#A0522D"/>
+  <g stroke="#8B4513" stroke-width="2"><line x1="95" y1="325" x2="95" y2="355"/><line x1="80" y1="340" x2="110" y2="340"/></g>
+  <circle cx="205" cy="340" r="20" fill="#8B4513"/>
+  <circle cx="205" cy="340" r="15" fill="#A0522D"/>
+  <g stroke="#8B4513" stroke-width="2"><line x1="205" y1="325" x2="205" y2="355"/><line x1="190" y1="340" x2="220" y2="340"/></g>
+  <!-- Crown with star -->
+  <rect x="132" y="103" width="36" height="10" rx="2" fill="#FFD700"/>
+  <polygon points="150,90 153,100 160,100 154,106 156,115 150,110 144,115 146,106 140,100 147,100" fill="#FFD700"/>
+  <!-- Head -->
+  <circle cx="150" cy="135" r="22" fill="#FFDAB9"/>
+  <path d="M128,133 Q130,112 150,108 Q170,112 172,133" fill="#333"/>
+  <circle cx="142" cy="133" r="2" fill="#333"/><circle cx="158" cy="133" r="2" fill="#333"/>
+  <path d="M142,146 Q150,150 158,146" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Armor -->
+  <path d="M130,155 L126,225 L174,225 L170,155Z" fill="#A8A8A8"/>
+  <rect x="138" y="170" width="24" height="8" rx="2" fill="#FFD700"/>
+  <!-- Arms -->
+  <line x1="130" y1="170" x2="105" y2="210" stroke="#A8A8A8" stroke-width="8"/>
+  <line x1="170" y1="170" x2="195" y2="210" stroke="#A8A8A8" stroke-width="8"/>
+  <!-- Sphinxes -->
+  <ellipse cx="110" cy="375" rx="25" ry="15" fill="#333"/>
+  <circle cx="100" cy="362" r="10" fill="#333"/>
+  <circle cx="103" cy="360" r="2" fill="#FFD700"/>
+  <ellipse cx="190" cy="375" rx="25" ry="15" fill="white"/>
+  <circle cx="200" cy="362" r="10" fill="white"/>
+  <circle cx="197" cy="360" r="2" fill="#333"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">VII</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE CHARIOT</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">战车</text>
+</svg>

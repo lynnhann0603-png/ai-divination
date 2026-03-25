@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="40%" stop-color="#90EE90" opacity="0.5"/><stop offset="100%" stop-color="#228B22"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Wheat field -->
+  <rect x="18" y="320" width="264" height="110" rx="0" fill="#DAA520" opacity="0.4"/>
+  <g stroke="#DAA520" stroke-width="2" opacity="0.6">
+    <line x1="40" y1="420" x2="45" y2="350"/><line x1="70" y1="420" x2="72" y2="360"/>
+    <line x1="100" y1="420" x2="98" y2="355"/><line x1="200" y1="420" x2="205" y2="350"/>
+    <line x1="230" y1="420" x2="228" y2="360"/><line x1="260" y1="420" x2="255" y2="355"/>
+  </g>
+  <!-- Trees -->
+  <rect x="35" y="180" width="15" height="140" fill="#5B3A1A"/>
+  <circle cx="42" cy="165" r="30" fill="#228B22" opacity="0.7"/>
+  <rect x="250" y="200" width="12" height="120" fill="#5B3A1A"/>
+  <circle cx="256" cy="185" r="25" fill="#228B22" opacity="0.7"/>
+  <!-- Stream -->
+  <path d="M250,380 Q200,370 180,400 Q160,420 120,430" fill="none" stroke="#4169E1" stroke-width="8" opacity="0.4"/>
+  <!-- Throne/cushion -->
+  <path d="M95,230 Q150,220 205,230 L210,380 L90,380Z" fill="#E8352D" opacity="0.7"/>
+  <!-- Crown with 12 stars -->
+  <path d="M120,95 L130,85 L140,95 L150,80 L160,95 L170,85 L180,95" fill="none" stroke="#FFD700" stroke-width="3"/>
+  <g fill="#FFD700">
+    <circle cx="120" cy="93" r="3"/><circle cx="130" cy="83" r="3"/><circle cx="140" cy="93" r="3"/>
+    <circle cx="150" cy="78" r="4"/><circle cx="160" cy="93" r="3"/><circle cx="170" cy="83" r="3"/>
+    <circle cx="180" cy="93" r="3"/>
+  </g>
+  <!-- Head -->
+  <circle cx="150" cy="130" r="24" fill="#FFDAB9"/>
+  <path d="M126,128 Q130,105 150,100 Q170,105 174,128" fill="#DAA520"/>
+  <circle cx="142" cy="128" r="2.5" fill="#333"/><circle cx="158" cy="128" r="2.5" fill="#333"/>
+  <path d="M143,140 Q150,146 157,140" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- White gown -->
+  <path d="M126,155 L100,380 L200,380 L174,155Z" fill="white" opacity="0.9"/>
+  <!-- Pattern - pomegranates -->
+  <circle cx="130" cy="250" r="5" fill="#E8352D" opacity="0.5"/>
+  <circle cx="150" cy="280" r="5" fill="#E8352D" opacity="0.5"/>
+  <circle cx="170" cy="250" r="5" fill="#E8352D" opacity="0.5"/>
+  <!-- Venus symbol on heart pillow -->
+  <circle cx="150" cy="195" r="10" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <line x1="150" y1="205" x2="150" y2="220" stroke="#FFD700" stroke-width="2"/>
+  <line x1="143" y1="213" x2="157" y2="213" stroke="#FFD700" stroke-width="2"/>
+  <!-- Scepter -->
+  <line x1="190" y1="150" x2="210" y2="340" stroke="#C4A44E" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="208" cy="145" r="10" fill="#FFD700"/>
+  <circle cx="208" cy="145" r="6" fill="none" stroke="#C4A44E" stroke-width="1.5"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">III</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE EMPRESS</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">皇后</text>
+</svg>

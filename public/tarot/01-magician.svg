@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD700" opacity="0.3"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#sky)"/>
+  <!-- Infinity symbol above head -->
+  <path d="M135,85 C135,75 145,70 150,80 C155,70 165,75 165,85 C165,95 155,100 150,90 C145,100 135,95 135,85Z" fill="none" stroke="#FFD700" stroke-width="2.5"/>
+  <!-- Roses arch top -->
+  <path d="M30,60 Q150,20 270,60" fill="none" stroke="#228B22" stroke-width="3"/>
+  <circle cx="60" cy="55" r="6" fill="#E8352D"/><circle cx="100" cy="45" r="6" fill="#E8352D"/>
+  <circle cx="150" cy="40" r="6" fill="#E8352D"/><circle cx="200" cy="45" r="6" fill="#E8352D"/>
+  <circle cx="240" cy="55" r="6" fill="#E8352D"/>
+  <!-- Roses bottom -->
+  <path d="M30,420 Q150,440 270,420" fill="none" stroke="#228B22" stroke-width="3"/>
+  <circle cx="60" cy="425" r="6" fill="#FF6B6B"/><circle cx="120" cy="432" r="6" fill="#FF6B6B"/>
+  <circle cx="180" cy="432" r="6" fill="#FF6B6B"/><circle cx="240" cy="425" r="6" fill="#FF6B6B"/>
+  <!-- Figure -->
+  <circle cx="150" cy="140" r="22" fill="#FFDAB9"/>
+  <path d="M128,135 Q130,115 150,110 Q170,115 172,135" fill="#333"/>
+  <circle cx="143" cy="138" r="2" fill="#333"/><circle cx="157" cy="138" r="2" fill="#333"/>
+  <path d="M144,148 Q150,153 156,148" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Red robe -->
+  <path d="M130,160 L120,340 L180,340 L170,160Z" fill="#E8352D"/>
+  <!-- White inner robe -->
+  <path d="M138,160 L135,320 L165,320 L162,160Z" fill="white" opacity="0.8"/>
+  <!-- Belt - ouroboros -->
+  <path d="M125,230 Q150,240 175,230" fill="none" stroke="#228B22" stroke-width="4"/>
+  <!-- Right arm raised with wand -->
+  <line x1="168" y1="180" x2="195" y2="105" stroke="#FFDAB9" stroke-width="7" stroke-linecap="round"/>
+  <line x1="195" y1="90" x2="195" y2="115" stroke="#C4A44E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="195" cy="87" r="5" fill="#FFD700"/>
+  <circle cx="195" cy="118" r="5" fill="#FFD700"/>
+  <!-- Left arm pointing down -->
+  <line x1="132" y1="180" x2="105" y2="280" stroke="#FFDAB9" stroke-width="7" stroke-linecap="round"/>
+  <!-- Table -->
+  <rect x="55" y="290" width="190" height="12" rx="3" fill="#8B7355"/>
+  <rect x="65" y="302" width="8" height="50" fill="#8B7355"/>
+  <rect x="227" y="302" width="8" height="50" fill="#8B7355"/>
+  <!-- Four elements on table -->
+  <!-- Cup -->
+  <path d="M80,275 L75,290 L95,290 L90,275Z" fill="#4169E1"/>
+  <ellipse cx="85" cy="275" rx="7" ry="3" fill="#5B9BD5"/>
+  <!-- Pentacle -->
+  <circle cx="130" cy="280" r="10" fill="#FFD700" stroke="#C4A44E" stroke-width="1.5"/>
+  <polygon points="130,272 132,278 139,278 134,282 136,289 130,285 124,289 126,282 121,278 128,278" fill="#C4A44E"/>
+  <!-- Sword -->
+  <line x1="175" y1="265" x2="175" y2="290" stroke="#A8A8A8" stroke-width="3"/>
+  <line x1="168" y1="278" x2="182" y2="278" stroke="#A8A8A8" stroke-width="2"/>
+  <!-- Wand -->
+  <line x1="220" y1="268" x2="220" y2="290" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="220" cy="266" r="4" fill="#228B22"/>
+  <!-- Number -->
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">I</text>
+  <!-- Title -->
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE MAGICIAN</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">魔术师</text>
+</svg>

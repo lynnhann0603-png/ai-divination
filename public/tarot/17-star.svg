@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A1A4E"/><stop offset="100%" stop-color="#2D4E7A"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Central large star (8-pointed) -->
+  <g transform="translate(150,150)">
+    <polygon points="0,-45 8,-15 38,-30 15,-5 45,0 15,5 38,30 8,15 0,45 -8,15 -38,30 -15,5 -45,0 -15,-5 -38,-30 -8,-15" fill="#FFD700"/>
+    <circle cx="0" cy="0" r="18" fill="#FFD700"/>
+    <circle cx="0" cy="0" r="12" fill="#FFFF00" opacity="0.6"/>
+  </g>
+  <!-- Seven smaller stars -->
+  <g fill="white">
+    <polygon points="70,90 72,96 78,96 73,100 75,106 70,102 65,106 67,100 62,96 68,96" />
+    <polygon points="230,90 232,96 238,96 233,100 235,106 230,102 225,106 227,100 222,96 228,96" />
+    <polygon points="90,60 92,66 98,66 93,70 95,76 90,72 85,76 87,70 82,66 88,66" />
+    <polygon points="210,60 212,66 218,66 213,70 215,76 210,72 205,76 207,70 202,66 208,66" />
+    <polygon points="50,130 52,136 58,136 53,140 55,146 50,142 45,146 47,140 42,136 48,136" />
+    <polygon points="250,130 252,136 258,136 253,140 255,146 250,142 245,146 247,140 242,136 248,136" />
+    <polygon points="150,65 152,71 158,71 153,75 155,81 150,77 145,81 147,75 142,71 148,71" />
+  </g>
+  <!-- Landscape -->
+  <rect x="18" y="300" width="264" height="130" fill="#228B22" opacity="0.3"/>
+  <!-- Pool/water -->
+  <ellipse cx="150" cy="370" rx="60" ry="25" fill="#5B9BD5" opacity="0.4"/>
+  <!-- Naked figure kneeling -->
+  <circle cx="150" cy="280" r="18" fill="#FFDAB9"/>
+  <path d="M132,275 Q138,260 150,257 Q162,260 168,275" fill="#DAA520"/>
+  <circle cx="143" cy="278" r="2" fill="#333"/><circle cx="157" cy="278" r="2" fill="#333"/>
+  <path d="M143,288 Q150,293 157,288" fill="none" stroke="#333" stroke-width="1.2"/>
+  <!-- Body kneeling -->
+  <path d="M135,298 L130,350 L170,350 L165,298Z" fill="#FFDAB9" opacity="0.8"/>
+  <!-- Legs kneeling -->
+  <path d="M135,350 Q130,370 120,380" stroke="#FFDAB9" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M165,350 Q170,370 175,380" stroke="#FFDAB9" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Left hand pouring water into pool -->
+  <line x1="135" y1="310" x2="110" y2="340" stroke="#FFDAB9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M105,335 L100,342 L115,345 L110,338Z" fill="#C4A44E"/>
+  <path d="M108,345 Q112,360 108,375" fill="none" stroke="#5B9BD5" stroke-width="3" opacity="0.6"/>
+  <!-- Right hand pouring onto land -->
+  <line x1="165" y1="310" x2="190" y2="340" stroke="#FFDAB9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M185,338 L190,345 L200,342 L195,335Z" fill="#C4A44E"/>
+  <path d="M195,345 Q200,355 195,365 Q190,375 195,385" fill="none" stroke="#5B9BD5" stroke-width="3" opacity="0.5"/>
+  <!-- Bird on tree -->
+  <rect x="240" y="310" width="8" height="60" fill="#5B3A1A"/>
+  <circle cx="244" cy="300" r="12" fill="#228B22"/>
+  <ellipse cx="248" cy="295" rx="6" ry="4" fill="#E8352D" opacity="0.7"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">XVII</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE STAR</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">星星</text>
+</svg>

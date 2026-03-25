@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="50%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#228B22" opacity="0.5"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Path in distance -->
+  <path d="M140,380 Q145,340 150,300 Q155,260 155,220" fill="none" stroke="#DAA520" stroke-width="3" opacity="0.4"/>
+  <!-- Mountains -->
+  <polygon points="18,380 60,300 102,380" fill="#4682B4" opacity="0.3"/>
+  <polygon points="200,380 240,310 282,380" fill="#4682B4" opacity="0.3"/>
+  <!-- Sun/sunset glow -->
+  <circle cx="150" cy="300" r="30" fill="#FFD700" opacity="0.2"/>
+  <!-- Irises flowers at bottom -->
+  <g fill="#228B22" opacity="0.5">
+    <line x1="40" y1="430" x2="45" y2="380" stroke="#228B22" stroke-width="2"/>
+    <line x1="70" y1="430" x2="68" y2="390" stroke="#228B22" stroke-width="2"/>
+    <line x1="230" y1="430" x2="235" y2="385" stroke="#228B22" stroke-width="2"/>
+    <line x1="260" y1="430" x2="258" y2="390" stroke="#228B22" stroke-width="2"/>
+  </g>
+  <circle cx="45" cy="378" r="5" fill="#9370DB" opacity="0.6"/>
+  <circle cx="68" cy="388" r="5" fill="#9370DB" opacity="0.6"/>
+  <circle cx="235" cy="383" r="5" fill="#9370DB" opacity="0.6"/>
+  <circle cx="258" cy="388" r="5" fill="#9370DB" opacity="0.6"/>
+  <!-- Angel wings -->
+  <path d="M90,180 Q40,120 30,160 Q25,190 60,210 Q80,200 100,195" fill="#E8352D" opacity="0.4"/>
+  <path d="M210,180 Q260,120 270,160 Q275,190 240,210 Q220,200 200,195" fill="#E8352D" opacity="0.4"/>
+  <!-- Larger inner wings -->
+  <path d="M110,200 Q60,150 55,185 Q55,210 85,220" fill="#FFD700" opacity="0.3"/>
+  <path d="M190,200 Q240,150 245,185 Q245,210 215,220" fill="#FFD700" opacity="0.3"/>
+  <!-- Angel head -->
+  <circle cx="150" cy="140" r="22" fill="#FFDAB9"/>
+  <path d="M128,138 Q130,118 150,112 Q170,118 172,138" fill="#DAA520"/>
+  <!-- Halo -->
+  <circle cx="150" cy="118" r="12" fill="#FFD700" opacity="0.3"/>
+  <!-- Sun symbol on forehead -->
+  <circle cx="150" cy="128" r="5" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <circle cx="150" cy="128" r="2" fill="#FFD700"/>
+  <!-- Face -->
+  <circle cx="143" cy="138" r="2" fill="#333"/><circle cx="157" cy="138" r="2" fill="#333"/>
+  <path d="M143,150 Q150,155 157,150" fill="none" stroke="#333" stroke-width="1.2"/>
+  <!-- White robe -->
+  <path d="M128,160 L110,380 L190,380 L172,160Z" fill="white" opacity="0.9"/>
+  <!-- Triangle with square on chest -->
+  <polygon points="150,180 135,210 165,210" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <rect x="142" y="193" width="16" height="16" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <!-- Two cups being poured -->
+  <!-- Left hand with cup pouring right -->
+  <path d="M125,200 L95,240" stroke="#FFDAB9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M85,232 L80,240 L95,245 L100,237Z" fill="#C4A44E"/>
+  <!-- Water flowing -->
+  <path d="M90,245 Q100,260 95,280 Q85,300 90,320" fill="none" stroke="#5B9BD5" stroke-width="3" opacity="0.6"/>
+  <!-- Right hand with cup pouring left -->
+  <path d="M175,200 L205,240" stroke="#FFDAB9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M200,237 L205,245 L220,240 L215,232Z" fill="#C4A44E"/>
+  <!-- Water flowing -->
+  <path d="M210,245 Q200,260 205,280 Q215,300 210,320" fill="none" stroke="#5B9BD5" stroke-width="3" opacity="0.6"/>
+  <!-- One foot on land, one in water -->
+  <rect x="125" y="360" width="25" height="20" rx="4" fill="#228B22" opacity="0.4"/>
+  <rect x="155" y="365" width="25" height="15" rx="4" fill="#5B9BD5" opacity="0.4"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">XIV</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">TEMPERANCE</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">节制</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="50%" stop-color="#B0C4DE"/><stop offset="100%" stop-color="#808080"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Angel/Gabriel in clouds -->
+  <ellipse cx="150" cy="100" rx="80" ry="35" fill="white" opacity="0.4"/>
+  <ellipse cx="100" cy="110" rx="40" ry="20" fill="white" opacity="0.3"/>
+  <ellipse cx="200" cy="110" rx="40" ry="20" fill="white" opacity="0.3"/>
+  <!-- Angel head -->
+  <circle cx="150" cy="90" r="18" fill="#FFDAB9"/>
+  <path d="M132,88 Q138,75 150,72 Q162,75 168,88" fill="#DAA520"/>
+  <circle cx="143" cy="88" r="2" fill="#333"/><circle cx="157" cy="88" r="2" fill="#333"/>
+  <!-- Halo -->
+  <circle cx="150" cy="72" r="10" fill="#FFD700" opacity="0.3"/>
+  <!-- Angel wings -->
+  <path d="M132,95 Q100,70 80,90 Q90,105 120,108" fill="#DDA0DD" opacity="0.5"/>
+  <path d="M168,95 Q200,70 220,90 Q210,105 180,108" fill="#DDA0DD" opacity="0.5"/>
+  <!-- Angel robe -->
+  <path d="M138,108 L132,140 L168,140 L162,108Z" fill="#9370DB" opacity="0.6"/>
+  <!-- Trumpet -->
+  <line x1="168" y1="105" x2="210" y2="115" stroke="#FFD700" stroke-width="3"/>
+  <path d="M210,108 L220,115 L210,122Z" fill="#FFD700"/>
+  <!-- Flag on trumpet -->
+  <rect x="190" y="118" width="25" height="18" fill="white"/>
+  <line x1="197" y1="121" x2="197" y2="133" stroke="#E8352D" stroke-width="2"/>
+  <line x1="190" y1="127" x2="215" y2="127" stroke="#E8352D" stroke-width="2"/>
+  <!-- Mountains in distance -->
+  <polygon points="18,350 60,280 102,350" fill="#4682B4" opacity="0.3"/>
+  <polygon points="200,350 240,290 282,350" fill="#4682B4" opacity="0.3"/>
+  <!-- Ocean/water -->
+  <rect x="18" y="320" width="264" height="110" fill="#5B9BD5" opacity="0.2"/>
+  <!-- Coffins/graves opening -->
+  <rect x="50" y="320" width="30" height="45" rx="3" fill="#696969"/>
+  <rect x="45" y="310" width="40" height="8" rx="2" fill="#808080"/>
+  <rect x="135" y="320" width="30" height="45" rx="3" fill="#696969"/>
+  <rect x="130" y="310" width="40" height="8" rx="2" fill="#808080"/>
+  <rect x="220" y="320" width="30" height="45" rx="3" fill="#696969"/>
+  <rect x="215" y="310" width="40" height="8" rx="2" fill="#808080"/>
+  <!-- Rising figures -->
+  <!-- Left figure (man) -->
+  <circle cx="65" cy="290" r="12" fill="#FFDAB9"/>
+  <rect x="58" y="302" width="14" height="20" fill="#FFDAB9" opacity="0.7"/>
+  <line x1="58" y1="308" x2="48" y2="295" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
+  <line x1="72" y1="308" x2="82" y2="295" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center figure (woman) -->
+  <circle cx="150" cy="285" r="12" fill="#FFDAB9"/>
+  <path d="M140,282 Q145,275 150,273 Q155,275 160,282" fill="#DAA520"/>
+  <rect x="143" y="297" width="14" height="20" fill="#FFDAB9" opacity="0.7"/>
+  <line x1="143" y1="303" x2="133" y2="290" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
+  <line x1="157" y1="303" x2="167" y2="290" stroke="#FFDAB9" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right figure (child) -->
+  <circle cx="235" cy="292" r="10" fill="#FFDAB9"/>
+  <rect x="229" y="302" width="12" height="18" fill="#FFDAB9" opacity="0.7"/>
+  <line x1="229" y1="308" x2="222" y2="298" stroke="#FFDAB9" stroke-width="3" stroke-linecap="round"/>
+  <line x1="241" y1="308" x2="248" y2="298" stroke="#FFDAB9" stroke-width="3" stroke-linecap="round"/>
+  <!-- Light rays from trumpet -->
+  <g stroke="#FFD700" stroke-width="1" opacity="0.3">
+    <line x1="215" y1="120" x2="240" y2="140"/><line x1="215" y1="125" x2="245" y2="160"/>
+    <line x1="210" y1="130" x2="250" y2="180"/>
+  </g>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">XX</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">JUDGEMENT</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">审判</text>
+</svg>

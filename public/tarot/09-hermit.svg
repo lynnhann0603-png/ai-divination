@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A1A4E"/><stop offset="50%" stop-color="#2D2D5E"/><stop offset="100%" stop-color="#808080"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Stars -->
+  <g fill="#FFD700" opacity="0.4">
+    <circle cx="50" cy="70" r="1.5"/><circle cx="90" cy="85" r="1"/><circle cx="200" cy="75" r="1.5"/>
+    <circle cx="250" cy="90" r="1"/><circle cx="130" cy="65" r="1"/><circle cx="260" cy="65" r="1.5"/>
+  </g>
+  <!-- Snowy mountain top -->
+  <polygon points="18,400 80,250 140,400" fill="#696969" opacity="0.5"/>
+  <polygon points="100,400 170,230 240,400" fill="#5A5A5A" opacity="0.6"/>
+  <polygon points="180,400 240,280 282,400" fill="#696969" opacity="0.5"/>
+  <!-- Snow caps -->
+  <polygon points="80,250 65,275 95,275" fill="white" opacity="0.5"/>
+  <polygon points="170,230 152,260 188,260" fill="white" opacity="0.5"/>
+  <!-- Hermit figure standing on peak -->
+  <!-- Hood/cloak -->
+  <path d="M130,150 Q150,125 170,150 L175,380 L125,380Z" fill="#808080"/>
+  <!-- Head in hood -->
+  <circle cx="150" cy="170" r="18" fill="#FFDAB9"/>
+  <path d="M132,170 Q135,148 150,142 Q165,148 168,170" fill="#808080"/>
+  <!-- Old face with beard -->
+  <circle cx="144" cy="168" r="2" fill="#333"/><circle cx="156" cy="168" r="2" fill="#333"/>
+  <path d="M138,180 Q150,200 162,180" fill="#DDD"/>
+  <!-- Hood shadow -->
+  <path d="M130,150 Q140,145 150,142 Q160,145 170,150 Q160,160 150,158 Q140,160 130,150Z" fill="#696969"/>
+  <!-- Raised arm with lantern -->
+  <line x1="165" y1="195" x2="195" y2="145" stroke="#808080" stroke-width="8"/>
+  <line x1="195" y1="140" x2="195" y2="155" stroke="#FFDAB9" stroke-width="5"/>
+  <!-- Lantern -->
+  <rect x="182" y="110" width="26" height="32" rx="4" fill="none" stroke="#C4A44E" stroke-width="2"/>
+  <rect x="188" y="105" width="14" height="8" rx="2" fill="#C4A44E"/>
+  <!-- Star of David in lantern (light) -->
+  <circle cx="195" cy="126" r="10" fill="#FFD700" opacity="0.6"/>
+  <polygon points="195,118 199,126 191,126" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <polygon points="195,134 191,126 199,126" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <!-- Light rays -->
+  <g stroke="#FFD700" stroke-width="1" opacity="0.4">
+    <line x1="195" y1="98" x2="195" y2="90"/><line x1="210" y1="110" x2="218" y2="105"/>
+    <line x1="215" y1="126" x2="225" y2="126"/><line x1="210" y1="140" x2="218" y2="148"/>
+    <line x1="180" y1="110" x2="172" y2="105"/><line x1="175" y1="126" x2="165" y2="126"/>
+  </g>
+  <!-- Staff in other hand -->
+  <line x1="120" y1="200" x2="110" y2="380" stroke="#8B4513" stroke-width="5" stroke-linecap="round"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">IX</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE HERMIT</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">隐者</text>
+</svg>

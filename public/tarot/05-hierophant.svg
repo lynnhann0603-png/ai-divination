@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#808080"/><stop offset="100%" stop-color="#B0B0B0"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Pillars -->
+  <rect x="50" y="80" width="25" height="300" fill="#696969" rx="3"/>
+  <rect x="225" y="80" width="25" height="300" fill="#696969" rx="3"/>
+  <!-- Arch -->
+  <path d="M50,80 Q150,40 250,80" fill="none" stroke="#696969" stroke-width="12"/>
+  <!-- Cross keys -->
+  <line x1="130" y1="330" x2="170" y2="330" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="125" cy="330" r="6" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <line x1="130" y1="315" x2="170" y2="345" stroke="#C0C0C0" stroke-width="3"/>
+  <circle cx="125" cy="310" r="6" fill="none" stroke="#C0C0C0" stroke-width="2"/>
+  <!-- Triple crown -->
+  <rect x="130" y="78" width="40" height="15" rx="3" fill="#FFD700"/>
+  <rect x="133" y="68" width="34" height="12" rx="3" fill="#FFD700"/>
+  <rect x="136" y="60" width="28" height="10" rx="3" fill="#FFD700"/>
+  <circle cx="150" cy="58" r="5" fill="#FFD700"/>
+  <circle cx="150" cy="65" r="2" fill="#E8352D"/>
+  <!-- Head -->
+  <circle cx="150" cy="120" r="24" fill="#FFDAB9"/>
+  <circle cx="142" cy="118" r="2.5" fill="#333"/><circle cx="158" cy="118" r="2.5" fill="#333"/>
+  <path d="M140,135 L160,135" stroke="#808080" stroke-width="2"/>
+  <!-- White beard -->
+  <path d="M132,135 Q150,170 168,135" fill="#DDD"/>
+  <!-- Red robe -->
+  <path d="M126,145 L100,380 L200,380 L174,145Z" fill="#CC0000"/>
+  <!-- Blue inner -->
+  <path d="M138,145 L130,320 L170,320 L162,145Z" fill="#4169E1"/>
+  <!-- Staff in left hand -->
+  <line x1="110" y1="150" x2="95" y2="350" stroke="#FFD700" stroke-width="5" stroke-linecap="round"/>
+  <line x1="90" y1="140" x2="100" y2="140" stroke="#FFD700" stroke-width="4"/>
+  <line x1="95" y1="130" x2="95" y2="150" stroke="#FFD700" stroke-width="4"/>
+  <!-- Right hand blessing -->
+  <path d="M185,200 L190,195 M185,200 L188,192 M185,200 L180,194" stroke="#FFDAB9" stroke-width="3" stroke-linecap="round"/>
+  <!-- Two monks at bottom -->
+  <circle cx="110" cy="340" r="10" fill="#FFDAB9"/>
+  <path d="M100,350 L95,380 L125,380 L120,350Z" fill="#E8352D" opacity="0.8"/>
+  <circle cx="190" cy="340" r="10" fill="#FFDAB9"/>
+  <path d="M180,350 L175,380 L205,380 L200,350Z" fill="#333"/>
+  <!-- Rose details on robes -->
+  <circle cx="110" cy="360" r="3" fill="#E8352D"/><circle cx="190" cy="360" r="3" fill="white"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">V</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5B4A2A">THE HIEROPHANT</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">教皇</text>
+</svg>

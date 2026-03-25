@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD700" opacity="0.3"/><stop offset="50%" stop-color="#90EE90" opacity="0.4"/><stop offset="100%" stop-color="#228B22"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Infinity symbol -->
+  <path d="M125,72 C125,60 138,55 150,68 C162,55 175,60 175,72 C175,84 162,89 150,76 C138,89 125,84 125,72Z" fill="none" stroke="#FFD700" stroke-width="2.5"/>
+  <!-- Mountain in distance -->
+  <polygon points="200,430 250,280 282,380" fill="#4682B4" opacity="0.3"/>
+  <!-- Flower garland -->
+  <path d="M18,350 Q80,320 150,340 Q220,320 282,350" fill="none" stroke="#228B22" stroke-width="3"/>
+  <circle cx="50" cy="340" r="5" fill="#E8352D" opacity="0.5"/>
+  <circle cx="100" cy="332" r="5" fill="#FFB6C1" opacity="0.5"/>
+  <circle cx="150" cy="338" r="5" fill="#E8352D" opacity="0.5"/>
+  <circle cx="200" cy="332" r="5" fill="#FFB6C1" opacity="0.5"/>
+  <circle cx="250" cy="340" r="5" fill="#E8352D" opacity="0.5"/>
+  <!-- Woman figure - head -->
+  <circle cx="150" cy="140" r="24" fill="#FFDAB9"/>
+  <path d="M126,140 Q128,115 150,108 Q172,115 174,140" fill="#DAA520"/>
+  <!-- Flower crown -->
+  <circle cx="132" cy="115" r="4" fill="#E8352D"/><circle cx="142" cy="108" r="4" fill="#FFB6C1"/>
+  <circle cx="150" cy="106" r="4" fill="#FF69B4"/><circle cx="158" cy="108" r="4" fill="#FFB6C1"/>
+  <circle cx="168" cy="115" r="4" fill="#E8352D"/>
+  <!-- Face -->
+  <circle cx="142" cy="138" r="2.5" fill="#333"/><circle cx="158" cy="138" r="2.5" fill="#333"/>
+  <path d="M143,150 Q150,156 157,150" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- White dress -->
+  <path d="M126,162 L105,380 L195,380 L174,162Z" fill="white" opacity="0.9"/>
+  <!-- Green sash -->
+  <path d="M126,200 Q150,210 174,200" fill="none" stroke="#228B22" stroke-width="5"/>
+  <!-- Arms gently holding lion's mouth -->
+  <line x1="130" y1="180" x2="110" y2="250" stroke="#FFDAB9" stroke-width="7" stroke-linecap="round"/>
+  <line x1="170" y1="180" x2="180" y2="240" stroke="#FFDAB9" stroke-width="7" stroke-linecap="round"/>
+  <!-- Lion body -->
+  <ellipse cx="150" cy="300" rx="55" ry="35" fill="#DAA520"/>
+  <ellipse cx="150" cy="300" rx="55" ry="35" fill="none" stroke="#B8860B" stroke-width="1.5"/>
+  <!-- Lion head -->
+  <circle cx="150" cy="260" r="28" fill="#DAA520"/>
+  <!-- Mane -->
+  <path d="M122,260 Q115,240 125,225 Q140,215 150,218 Q160,215 175,225 Q185,240 178,260" fill="#B8860B" opacity="0.7"/>
+  <!-- Lion face -->
+  <circle cx="140" cy="258" r="3" fill="#333"/><circle cx="160" cy="258" r="3" fill="#333"/>
+  <ellipse cx="150" cy="268" rx="6" ry="4" fill="#8B4513"/>
+  <!-- Lion mouth being held open -->
+  <path d="M140,275 Q150,285 160,275" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Hands on lion mouth -->
+  <circle cx="140" cy="250" r="5" fill="#FFDAB9"/><circle cx="160" cy="250" r="5" fill="#FFDAB9"/>
+  <!-- Lion legs -->
+  <line x1="110" y1="320" x2="100" y2="370" stroke="#DAA520" stroke-width="8" stroke-linecap="round"/>
+  <line x1="190" y1="320" x2="200" y2="370" stroke="#DAA520" stroke-width="8" stroke-linecap="round"/>
+  <!-- Tail -->
+  <path d="M205,300 Q220,285 215,270" fill="none" stroke="#DAA520" stroke-width="4" stroke-linecap="round"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">VIII</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">STRENGTH</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">力量</text>
+</svg>

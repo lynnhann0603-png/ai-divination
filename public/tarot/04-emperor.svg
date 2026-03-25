@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FF8C00" opacity="0.3"/><stop offset="50%" stop-color="#CD853F" opacity="0.4"/><stop offset="100%" stop-color="#A0522D"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Mountains -->
+  <polygon points="18,380 60,280 102,380" fill="#8B4513" opacity="0.5"/>
+  <polygon points="80,380 140,260 200,380" fill="#A0522D" opacity="0.4"/>
+  <polygon points="180,380 230,290 282,380" fill="#8B4513" opacity="0.5"/>
+  <!-- Stone throne -->
+  <rect x="80" y="150" width="140" height="230" rx="8" fill="#808080"/>
+  <rect x="75" y="140" width="30" height="240" rx="5" fill="#696969"/>
+  <rect x="195" y="140" width="30" height="240" rx="5" fill="#696969"/>
+  <!-- Ram heads on throne -->
+  <circle cx="90" cy="160" r="12" fill="#A0A0A0"/>
+  <path d="M80,155 Q78,145 82,140" fill="none" stroke="#888" stroke-width="2"/>
+  <path d="M100,155 Q102,145 98,140" fill="none" stroke="#888" stroke-width="2"/>
+  <circle cx="210" cy="160" r="12" fill="#A0A0A0"/>
+  <path d="M200,155 Q198,145 202,140" fill="none" stroke="#888" stroke-width="2"/>
+  <path d="M220,155 Q222,145 218,140" fill="none" stroke="#888" stroke-width="2"/>
+  <!-- Crown -->
+  <path d="M128,90 L135,75 L142,90 L150,70 L158,90 L165,75 L172,90" fill="#FFD700"/>
+  <rect x="128" y="90" width="44" height="8" fill="#FFD700"/>
+  <circle cx="140" cy="83" r="3" fill="#E8352D"/><circle cx="150" cy="73" r="3" fill="#4169E1"/>
+  <circle cx="160" cy="83" r="3" fill="#E8352D"/>
+  <!-- Head -->
+  <circle cx="150" cy="125" r="24" fill="#FFDAB9"/>
+  <path d="M130,132 Q128,110 150,98 Q172,110 170,132" fill="#808080"/>
+  <circle cx="142" cy="124" r="2.5" fill="#333"/><circle cx="158" cy="124" r="2.5" fill="#333"/>
+  <path d="M140,140 L160,140" stroke="#808080" stroke-width="2"/>
+  <!-- Red robe -->
+  <path d="M126,148 L100,380 L200,380 L174,148Z" fill="#CC0000"/>
+  <!-- Armor underneath -->
+  <rect x="133" y="160" width="34" height="50" rx="4" fill="#A8A8A8"/>
+  <line x1="140" y1="160" x2="140" y2="210" stroke="#888" stroke-width="1"/>
+  <line x1="150" y1="160" x2="150" y2="210" stroke="#888" stroke-width="1"/>
+  <line x1="160" y1="160" x2="160" y2="210" stroke="#888" stroke-width="1"/>
+  <!-- Ankh scepter in right hand -->
+  <line x1="195" y1="170" x2="220" y2="310" stroke="#FFD700" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="222" cy="160" r="8" fill="none" stroke="#FFD700" stroke-width="3"/>
+  <line x1="222" y1="168" x2="222" y2="185" stroke="#FFD700" stroke-width="3"/>
+  <line x1="215" y1="178" x2="229" y2="178" stroke="#FFD700" stroke-width="3"/>
+  <!-- Globe in left hand -->
+  <circle cx="100" cy="230" r="14" fill="#FFD700" opacity="0.8"/>
+  <line x1="100" y1="216" x2="100" y2="244" stroke="#C4A44E" stroke-width="1.5"/>
+  <path d="M86,230 Q100,222 114,230" fill="none" stroke="#C4A44E" stroke-width="1"/>
+  <!-- Mars symbol -->
+  <circle cx="150" cy="240" r="8" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <line x1="156" y1="234" x2="165" y2="225" stroke="#FFD700" stroke-width="1.5"/>
+  <path d="M160,225 L165,225 L165,230" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">IV</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE EMPEROR</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">皇帝</text>
+</svg>

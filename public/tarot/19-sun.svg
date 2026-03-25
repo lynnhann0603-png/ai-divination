@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD700" opacity="0.4"/><stop offset="40%" stop-color="#87CEEB"/><stop offset="100%" stop-color="#228B22" opacity="0.5"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Big sun with face -->
+  <circle cx="150" cy="130" r="55" fill="#FFD700"/>
+  <!-- Sun rays -->
+  <g stroke="#FFD700" stroke-width="3">
+    <line x1="150" y1="65" x2="150" y2="50"/><line x1="190" y1="80" x2="202" y2="68"/>
+    <line x1="212" y1="115" x2="228" y2="110"/><line x1="212" y1="150" x2="228" y2="158"/>
+    <line x1="190" y1="180" x2="202" y2="195"/><line x1="150" y1="195" x2="150" y2="210"/>
+    <line x1="110" y1="180" x2="98" y2="195"/><line x1="88" y1="150" x2="72" y2="158"/>
+    <line x1="88" y1="115" x2="72" y2="110"/><line x1="110" y1="80" x2="98" y2="68"/>
+  </g>
+  <!-- Wavy rays between straight ones -->
+  <g fill="none" stroke="#FFD700" stroke-width="2" opacity="0.5">
+    <path d="M170,72 Q175,60 180,72"/><path d="M210,95 Q222,90 215,100"/>
+    <path d="M218,135 Q232,132 222,142"/><path d="M205,170 Q218,175 208,182"/>
+    <path d="M170,192 Q175,205 168,200"/><path d="M130,192 Q125,205 132,200"/>
+    <path d="M95,170 Q82,175 92,182"/><path d="M82,135 Q68,132 78,142"/>
+    <path d="M90,95 Q78,90 85,100"/><path d="M130,72 Q125,60 120,72"/>
+  </g>
+  <!-- Sun face -->
+  <circle cx="150" cy="130" r="42" fill="#FFAA00"/>
+  <circle cx="135" cy="120" r="5" fill="#8B4513"/><circle cx="165" cy="120" r="5" fill="#8B4513"/>
+  <path d="M130,145 Q150,160 170,145" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <!-- Nose -->
+  <path d="M148,130 Q150,125 152,130" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+  <!-- Cheeks -->
+  <circle cx="128" cy="138" r="6" fill="#FF6600" opacity="0.3"/>
+  <circle cx="172" cy="138" r="6" fill="#FF6600" opacity="0.3"/>
+  <!-- Sunflowers at bottom -->
+  <g>
+    <line x1="60" y1="430" x2="65" y2="340" stroke="#228B22" stroke-width="3"/>
+    <circle cx="65" cy="335" r="12" fill="#FFD700"/>
+    <circle cx="65" cy="335" r="6" fill="#8B4513"/>
+    <line x1="240" y1="430" x2="235" y2="345" stroke="#228B22" stroke-width="3"/>
+    <circle cx="235" cy="340" r="12" fill="#FFD700"/>
+    <circle cx="235" cy="340" r="6" fill="#8B4513"/>
+    <line x1="150" y1="430" x2="150" y2="360" stroke="#228B22" stroke-width="3"/>
+    <circle cx="150" cy="355" r="12" fill="#FFD700"/>
+    <circle cx="150" cy="355" r="6" fill="#8B4513"/>
+    <line x1="100" y1="430" x2="105" y2="350" stroke="#228B22" stroke-width="3"/>
+    <circle cx="105" cy="345" r="10" fill="#FFD700"/>
+    <circle cx="105" cy="345" r="5" fill="#8B4513"/>
+    <line x1="200" y1="430" x2="195" y2="350" stroke="#228B22" stroke-width="3"/>
+    <circle cx="195" cy="345" r="10" fill="#FFD700"/>
+    <circle cx="195" cy="345" r="5" fill="#8B4513"/>
+  </g>
+  <!-- Wall -->
+  <rect x="18" y="380" width="264" height="15" fill="#808080" opacity="0.4"/>
+  <!-- Child on horse -->
+  <!-- Horse -->
+  <ellipse cx="150" cy="280" rx="35" ry="20" fill="white"/>
+  <path d="M115,270 Q105,240 115,225 Q125,215 130,228" fill="white"/>
+  <circle cx="112" cy="232" r="3" fill="#333"/>
+  <line x1="120" y1="292" x2="115" y2="330" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="140" y1="295" x2="135" y2="330" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="165" y1="295" x2="170" y2="330" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="180" y1="292" x2="185" y2="330" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <!-- Tail -->
+  <path d="M185,275 Q200,270 195,260" fill="none" stroke="white" stroke-width="3"/>
+  <!-- Child riding -->
+  <circle cx="150" cy="245" r="14" fill="#FFDAB9"/>
+  <path d="M136,242 Q142,232 150,230 Q158,232 164,242" fill="#DAA520"/>
+  <circle cx="145" cy="244" r="2" fill="#333"/><circle cx="155" cy="244" r="2" fill="#333"/>
+  <path d="M145,252 Q150,256 155,252" fill="none" stroke="#333" stroke-width="1"/>
+  <!-- Red banner/flag -->
+  <line x1="162" y1="245" x2="180" y2="215" stroke="#8B4513" stroke-width="2"/>
+  <rect x="180" y="200" width="30" height="20" rx="2" fill="#FF4500"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">XIX</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE SUN</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">太阳</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A1A4E"/><stop offset="50%" stop-color="#2D2D7A"/><stop offset="100%" stop-color="#E8E0D0"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Pillars -->
+  <rect x="40" y="80" width="30" height="280" fill="#222" rx="4"/>
+  <text x="55" y="130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="white">B</text>
+  <rect x="230" y="80" width="30" height="280" fill="#DDD" rx="4"/>
+  <text x="245" y="130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#333">J</text>
+  <!-- Veil between pillars -->
+  <rect x="70" y="80" width="160" height="280" fill="#4169E1" opacity="0.15"/>
+  <path d="M70,80 Q110,95 150,80 Q190,95 230,80" fill="none" stroke="#C4A44E" stroke-width="1" opacity="0.5"/>
+  <!-- Pomegranates on veil -->
+  <circle cx="100" cy="120" r="5" fill="#E8352D" opacity="0.4"/>
+  <circle cx="150" cy="100" r="5" fill="#E8352D" opacity="0.4"/>
+  <circle cx="200" cy="120" r="5" fill="#E8352D" opacity="0.4"/>
+  <circle cx="120" cy="160" r="5" fill="#E8352D" opacity="0.4"/>
+  <circle cx="180" cy="160" r="5" fill="#E8352D" opacity="0.4"/>
+  <!-- Crescent moon crown -->
+  <path d="M138,100 Q150,85 162,100" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+  <circle cx="150" cy="92" r="8" fill="#C0C0C0"/>
+  <circle cx="153" cy="92" r="7" fill="#1A1A4E"/>
+  <!-- Head -->
+  <circle cx="150" cy="150" r="22" fill="#FFDAB9"/>
+  <path d="M128,148 Q130,125 150,120 Q170,125 172,148" fill="#1A1A4E"/>
+  <circle cx="143" cy="148" r="2" fill="#333"/><circle cx="157" cy="148" r="2" fill="#333"/>
+  <path d="M145,158 Q150,162 155,158" fill="none" stroke="#333" stroke-width="1.2"/>
+  <!-- Blue robe -->
+  <path d="M128,170 L115,380 L185,380 L172,170Z" fill="#4169E1"/>
+  <!-- White cross on chest -->
+  <rect x="145" y="185" width="10" height="30" fill="white" rx="2"/>
+  <rect x="137" y="193" width="26" height="10" fill="white" rx="2"/>
+  <!-- Flowing robe -->
+  <path d="M115,380 Q100,400 90,420" fill="none" stroke="#4169E1" stroke-width="8" opacity="0.6"/>
+  <path d="M185,380 Q200,400 210,420" fill="none" stroke="#4169E1" stroke-width="8" opacity="0.6"/>
+  <!-- Torah scroll in hands -->
+  <rect x="130" y="260" width="40" height="55" rx="4" fill="#F5F0E0" stroke="#C4A44E" stroke-width="1.5"/>
+  <text x="150" y="285" text-anchor="middle" font-family="serif" font-size="11" fill="#5B4A2A">TORA</text>
+  <line x1="135" y1="290" x2="165" y2="290" stroke="#C4A44E" stroke-width="0.8"/>
+  <!-- Moon at feet -->
+  <path d="M130,370 Q145,355 160,370 Q145,365 130,370Z" fill="#C0C0C0" opacity="0.6"/>
+  <!-- Number -->
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">II</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5B4A2A">THE HIGH PRIESTESS</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">女祭司</text>
+</svg>

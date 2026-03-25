@@ -61,6 +61,15 @@ function TarotResult({ reading }) {
           {reading.cards.map((card) => (
             <div className="tarot-card" key={`${card.position}-${card.name}`}>
               <span className="tarot-position">{card.position}</span>
+              <div className="tarot-image-wrap">
+                <img
+                  className={`tarot-image ${card.orientation === '逆位' ? 'tarot-image-reversed' : ''}`}
+                  src={card.image}
+                  alt={`${card.name} - ${card.orientation}`}
+                  width={140}
+                  height={220}
+                />
+              </div>
               <h4 className="tarot-name">{card.name}</h4>
               <span className={`orientation ${card.orientation === '逆位' ? 'reverse' : ''}`}>{card.orientation}</span>
               <p>{card.message}</p>
@@ -78,8 +87,27 @@ function TarotResult({ reading }) {
         <span className="eyebrow">逐张拆解</span>
         <div className="insight-grid">
           {reading.cards.map((card) => (
-            <div className="reading-card" key={`detail-${card.position}-${card.name}`}>
-              <strong>{card.position} · {card.name}{card.orientation}</strong>
+            <div className="reading-card tarot-detail-card" key={`detail-${card.position}-${card.name}`}>
+              <div className="detail-card-header">
+                <div className="detail-image-wrap">
+                  <img
+                    className={`detail-image ${card.orientation === '逆位' ? 'tarot-image-reversed' : ''}`}
+                    src={card.image}
+                    alt={`${card.name} - ${card.orientation}`}
+                    width={72}
+                    height={113}
+                  />
+                </div>
+                <div className="detail-card-info">
+                  <strong>{card.position} · {card.name}</strong>
+                  <span className={`orientation ${card.orientation === '逆位' ? 'reverse' : ''}`}>{card.orientation}</span>
+                  <div className="tip-tags">
+                    {card.keywords.map((keyword) => (
+                      <span key={`detail-${card.name}-${keyword}`}>{keyword}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
               <p>{card.message}</p>
             </div>
           ))}

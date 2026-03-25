@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="50%" stop-color="#DDA0DD" opacity="0.3"/><stop offset="100%" stop-color="#E8E0D0"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Wreath (oval laurel) -->
+  <ellipse cx="150" cy="230" rx="90" ry="120" fill="none" stroke="#228B22" stroke-width="16"/>
+  <ellipse cx="150" cy="230" rx="90" ry="120" fill="none" stroke="#2E8B57" stroke-width="8"/>
+  <!-- Leaves detail -->
+  <g fill="#228B22" opacity="0.6">
+    <ellipse cx="62" cy="200" rx="6" ry="12" transform="rotate(-20,62,200)"/>
+    <ellipse cx="66" cy="160" rx="6" ry="12" transform="rotate(-30,66,160)"/>
+    <ellipse cx="80" cy="130" rx="6" ry="12" transform="rotate(-45,80,130)"/>
+    <ellipse cx="238" cy="200" rx="6" ry="12" transform="rotate(20,238,200)"/>
+    <ellipse cx="234" cy="160" rx="6" ry="12" transform="rotate(30,234,160)"/>
+    <ellipse cx="220" cy="130" rx="6" ry="12" transform="rotate(45,220,130)"/>
+    <ellipse cx="80" cy="310" rx="6" ry="12" transform="rotate(30,80,310)"/>
+    <ellipse cx="220" cy="310" rx="6" ry="12" transform="rotate(-30,220,310)"/>
+  </g>
+  <!-- Red ribbons at top and bottom -->
+  <path d="M115,115 Q150,100 185,115" fill="none" stroke="#E8352D" stroke-width="5"/>
+  <path d="M115,345 Q150,360 185,345" fill="none" stroke="#E8352D" stroke-width="5"/>
+  <!-- Figure in center with flowing scarf -->
+  <circle cx="150" cy="195" r="20" fill="#FFDAB9"/>
+  <path d="M130,192 Q135,178 150,175 Q165,178 170,192" fill="#9370DB"/>
+  <circle cx="143" cy="193" r="2.5" fill="#333"/><circle cx="157" cy="193" r="2.5" fill="#333"/>
+  <path d="M143,203 Q150,208 157,203" fill="none" stroke="#333" stroke-width="1.2"/>
+  <!-- Body with purple sash -->
+  <path d="M133,215 L128,310 L172,310 L167,215Z" fill="#FFDAB9" opacity="0.7"/>
+  <path d="M120,220 Q150,240 180,220" fill="none" stroke="#9370DB" stroke-width="6"/>
+  <!-- Flowing purple sash -->
+  <path d="M120,220 Q100,240 90,230" fill="none" stroke="#9370DB" stroke-width="4"/>
+  <path d="M180,220 Q200,240 210,230" fill="none" stroke="#9370DB" stroke-width="4"/>
+  <!-- Two wands in hands -->
+  <line x1="130" y1="230" x2="110" y2="290" stroke="#C4A44E" stroke-width="4" stroke-linecap="round"/>
+  <line x1="170" y1="230" x2="190" y2="290" stroke="#C4A44E" stroke-width="4" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="140" y1="310" x2="135" y2="345" stroke="#FFDAB9" stroke-width="7" stroke-linecap="round"/>
+  <line x1="160" y1="310" x2="165" y2="345" stroke="#FFDAB9" stroke-width="7" stroke-linecap="round"/>
+  <!-- Four corners - fixed creatures -->
+  <!-- Angel (top-left) -->
+  <circle cx="38" cy="75" r="14" fill="#FFDAB9"/>
+  <path d="M26,73 Q20,62 28,58" fill="none" stroke="#DDA0DD" stroke-width="3" opacity="0.6"/>
+  <path d="M50,73 Q56,62 48,58" fill="none" stroke="#DDA0DD" stroke-width="3" opacity="0.6"/>
+  <circle cx="35" cy="74" r="2" fill="#333"/><circle cx="41" cy="74" r="2" fill="#333"/>
+  <!-- Eagle (top-right) -->
+  <ellipse cx="262" cy="78" rx="16" ry="12" fill="#DAA520"/>
+  <path d="M252,70 L262,58 L272,70" fill="none" stroke="#DAA520" stroke-width="3"/>
+  <circle cx="258" cy="76" r="2" fill="#333"/><circle cx="266" cy="76" r="2" fill="#333"/>
+  <!-- Bull (bottom-left) -->
+  <ellipse cx="38" cy="405" rx="16" ry="12" fill="#8B4513"/>
+  <path d="M26,400 Q24,390 28,386" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <path d="M50,400 Q52,390 48,386" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <circle cx="34" cy="403" r="2" fill="#333"/><circle cx="42" cy="403" r="2" fill="#333"/>
+  <!-- Lion (bottom-right) -->
+  <circle cx="262" cy="400" r="14" fill="#DAA520"/>
+  <circle cx="262" cy="396" r="18" fill="#B8860B" opacity="0.5"/>
+  <circle cx="258" cy="398" r="2" fill="#333"/><circle cx="266" cy="398" r="2" fill="#333"/>
+  <path d="M256,405 Q262,410 268,405" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">XXI</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE WORLD</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">世界</text>
+</svg>

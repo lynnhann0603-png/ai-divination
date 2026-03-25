@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#F5E6B8"/></linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A1A1A"/><stop offset="100%" stop-color="#333"/></linearGradient>
+  </defs>
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+  <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+  <rect x="18" y="50" width="264" height="380" rx="8" fill="url(#scene)"/>
+  <!-- Inverted pentagram -->
+  <circle cx="150" cy="110" r="25" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.5"/>
+  <polygon points="150,87 158,107 140,95 160,95 142,107" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.5"/>
+  <!-- Devil/Baphomet figure -->
+  <!-- Bat wings -->
+  <path d="M90,180 Q40,130 30,170 Q35,200 70,210 Q85,200 95,195" fill="#444"/>
+  <path d="M210,180 Q260,130 270,170 Q265,200 230,210 Q215,200 205,195" fill="#444"/>
+  <!-- Body -->
+  <path d="M120,190 L110,340 L190,340 L180,190Z" fill="#555"/>
+  <!-- Head with horns -->
+  <circle cx="150" cy="165" r="25" fill="#555"/>
+  <!-- Horns -->
+  <path d="M128,148 Q120,120 110,115" fill="none" stroke="#555" stroke-width="6" stroke-linecap="round"/>
+  <path d="M172,148 Q180,120 190,115" fill="none" stroke="#555" stroke-width="6" stroke-linecap="round"/>
+  <!-- Goat face -->
+  <circle cx="140" cy="160" r="4" fill="#E8352D"/>
+  <circle cx="160" cy="160" r="4" fill="#E8352D"/>
+  <path d="M140,175 Q150,185 160,175" fill="none" stroke="#E8352D" stroke-width="2"/>
+  <!-- Beard -->
+  <path d="M140,180 Q150,200 160,180" fill="#444"/>
+  <!-- Torch -->
+  <line x1="185" y1="195" x2="210" y2="170" stroke="#555" stroke-width="4"/>
+  <path d="M205,160 Q210,145 215,160 Q210,165 205,160Z" fill="#FF4500"/>
+  <path d="M207,155 Q210,140 213,155" fill="#FFD700" opacity="0.7"/>
+  <!-- Right hand raised with open palm -->
+  <path d="M180,200 L200,180" stroke="#555" stroke-width="6" stroke-linecap="round"/>
+  <!-- Left hand lowered -->
+  <path d="M120,200 L100,220" stroke="#555" stroke-width="6" stroke-linecap="round"/>
+  <!-- Black pedestal/cube -->
+  <rect x="90" y="310" width="120" height="50" rx="4" fill="#222"/>
+  <rect x="90" y="310" width="120" height="50" rx="4" fill="none" stroke="#444" stroke-width="1"/>
+  <!-- Chain ring on pedestal -->
+  <circle cx="120" cy="335" r="6" fill="none" stroke="#A8A8A8" stroke-width="2"/>
+  <circle cx="180" cy="335" r="6" fill="none" stroke="#A8A8A8" stroke-width="2"/>
+  <!-- Chained man (left) -->
+  <circle cx="85" cy="355" r="12" fill="#FFDAB9"/>
+  <circle cx="82" cy="353" r="2" fill="#333"/><circle cx="88" cy="353" r="2" fill="#333"/>
+  <!-- Horns on man -->
+  <path d="M78,345 L75,338" stroke="#E8352D" stroke-width="2"/>
+  <path d="M92,345 L95,338" stroke="#E8352D" stroke-width="2"/>
+  <rect x="78" y="367" width="14" height="25" fill="#FFDAB9" opacity="0.7"/>
+  <!-- Chain to man -->
+  <path d="M120,335 Q105,340 90,360" fill="none" stroke="#A8A8A8" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Tail with flame -->
+  <path d="M75,392 Q65,400 70,410" fill="none" stroke="#E8352D" stroke-width="2"/>
+  <circle cx="70" cy="412" r="4" fill="#FF4500"/>
+  <!-- Chained woman (right) -->
+  <circle cx="215" cy="355" r="12" fill="#FFDAB9"/>
+  <path d="M205,352 Q210,342 215,340 Q220,342 225,352" fill="#DAA520"/>
+  <circle cx="212" cy="353" r="2" fill="#333"/><circle cx="218" cy="353" r="2" fill="#333"/>
+  <!-- Horns on woman -->
+  <path d="M208,345 L205,338" stroke="#E8352D" stroke-width="2"/>
+  <path d="M222,345 L225,338" stroke="#E8352D" stroke-width="2"/>
+  <rect x="208" y="367" width="14" height="25" fill="#FFDAB9" opacity="0.7"/>
+  <!-- Chain to woman -->
+  <path d="M180,335 Q195,340 210,360" fill="none" stroke="#A8A8A8" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Tail with grapes -->
+  <path d="M225,392 Q235,400 230,410" fill="none" stroke="#228B22" stroke-width="2"/>
+  <circle cx="228" cy="410" r="3" fill="#800080"/><circle cx="233" cy="413" r="3" fill="#800080"/>
+  <text x="150" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#C4A44E">XV</text>
+  <text x="150" y="458" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5B4A2A">THE DEVIL</text>
+  <text x="150" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#8B7355">恶魔</text>
+</svg>
