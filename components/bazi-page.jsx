@@ -163,26 +163,6 @@ function BaziResult({ profile }) {
         <p className="result-copy reading-text">{dr.beneficialName}</p>
       </SectionCard>
 
-      {/* 十二、2026丙午年流月运势 */}
-      <article className="result-card">
-        <span className="eyebrow">2026 丙午年 · 流月运势</span>
-        <h3 className="result-title">十二月逐月运势与化解</h3>
-        <ScrollableContent>
-          <div className="fortune-months">
-            {dr.monthlyFortune2026.map((m, idx) => (
-              <div className={`fortune-month-card fortune-${m.level}`} key={idx}>
-                <div className="fortune-month-header">
-                  <span className="fortune-month-label">{m.month}</span>
-                  <span className="fortune-gz">{m.ganzhi}</span>
-                  <span className={`fortune-level-dot ${m.level}`} />
-                </div>
-                <p className="result-copy">{m.advice}</p>
-              </div>
-            ))}
-          </div>
-        </ScrollableContent>
-      </article>
-
       {/* 命盘基础信息 */}
       <SectionCard eyebrow="命盘信息" title={`${profile.focus}方向 · 年度运势`}>
         <p className="result-copy">{profile.currentNote}{profile.focusProfile.headline}</p>
@@ -226,8 +206,8 @@ function BaziResult({ profile }) {
                 <span className="line-label">{item.month} · {item.lunarMonthLabel}</span>
                 <h4 className="timeline-title">{item.title}</h4>
                 <div className="timeline-meta">
-                  <span className={`timeline-pill ${item.level}`}>流年 {item.flowYearGanzhi}</span>
-                  <span className="timeline-pill">流月 {item.flowMonthGanzhi}</span>
+                  <span className={`timeline-pill ${item.level}`}>流月 {item.flowMonthGanzhi}</span>
+                  <span className="timeline-pill shi-shen">{item.shiShen}</span>
                 </div>
                 <p className="timeline-subtitle">{item.summary}</p>
                 <p>{item.direction}</p>
