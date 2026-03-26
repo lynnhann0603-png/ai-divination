@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#F5E6B8"/>
+    </linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8DAEF"/>
+      <stop offset="100%" stop-color="#D2B4DE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 暖黄色背景（与大阿卡纳一致） -->
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+
+  
+    <!-- 外边框（与大阿卡纳统一金色） -->
+    <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+    <!-- 内边框角装饰 -->
+    <circle cx="24" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="24" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+
+  <!-- 场景区域 -->
+  <rect x="18" y="50" width="264" height="340" rx="8" fill="url(#scene)" opacity="0.5"/>
+
+  <!-- 顶部：编号 + 花色元素名 -->
+  <text x="30" y="42" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#5D6D7E">4</text>
+  <text x="270" y="42" font-family="sans-serif" font-size="14" fill="#85929E" text-anchor="end" opacity="0.7">风</text>
+
+  <!-- 中央主体内容 -->
+  
+        <g transform="translate(120,180)">
+          <rect x="-1.33" y="-19" width="2.66" height="26.599999999999998" fill="#85929E"/>
+          <polygon points="0,-21.28 -2.28,-16.72 2.28,-16.72" fill="#85929E"/>
+          <rect x="-6.84" y="6.84" width="13.68" height="2.28" rx="0.76" fill="#2C3E50"/>
+          <rect x="-1.9000000000000001" y="8.36" width="3.8000000000000003" height="7.6000000000000005" rx="0.76" fill="#2C3E50"/>
+          <circle cx="0" cy="12.920000000000002" r="1.52" fill="#5D6D7E" opacity="0.6"/>
+        </g>
+        <g transform="translate(180,180)">
+          <rect x="-1.33" y="-19" width="2.66" height="26.599999999999998" fill="#85929E"/>
+          <polygon points="0,-21.28 -2.28,-16.72 2.28,-16.72" fill="#85929E"/>
+          <rect x="-6.84" y="6.84" width="13.68" height="2.28" rx="0.76" fill="#2C3E50"/>
+          <rect x="-1.9000000000000001" y="8.36" width="3.8000000000000003" height="7.6000000000000005" rx="0.76" fill="#2C3E50"/>
+          <circle cx="0" cy="12.920000000000002" r="1.52" fill="#5D6D7E" opacity="0.6"/>
+        </g>
+        <g transform="translate(120,240)">
+          <rect x="-1.33" y="-19" width="2.66" height="26.599999999999998" fill="#85929E"/>
+          <polygon points="0,-21.28 -2.28,-16.72 2.28,-16.72" fill="#85929E"/>
+          <rect x="-6.84" y="6.84" width="13.68" height="2.28" rx="0.76" fill="#2C3E50"/>
+          <rect x="-1.9000000000000001" y="8.36" width="3.8000000000000003" height="7.6000000000000005" rx="0.76" fill="#2C3E50"/>
+          <circle cx="0" cy="12.920000000000002" r="1.52" fill="#5D6D7E" opacity="0.6"/>
+        </g>
+        <g transform="translate(180,240)">
+          <rect x="-1.33" y="-19" width="2.66" height="26.599999999999998" fill="#85929E"/>
+          <polygon points="0,-21.28 -2.28,-16.72 2.28,-16.72" fill="#85929E"/>
+          <rect x="-6.84" y="6.84" width="13.68" height="2.28" rx="0.76" fill="#2C3E50"/>
+          <rect x="-1.9000000000000001" y="8.36" width="3.8000000000000003" height="7.6000000000000005" rx="0.76" fill="#2C3E50"/>
+          <circle cx="0" cy="12.920000000000002" r="1.52" fill="#5D6D7E" opacity="0.6"/>
+        </g>
+
+  <!-- 底部：牌名 -->
+  <text x="150" y="408" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#5D6D7E" text-anchor="middle">宝剑四</text>
+  <text x="150" y="430" font-family="Georgia, serif" font-size="13" fill="#2C3E50" text-anchor="middle" opacity="0.7">Four of Swords</text>
+
+  
+        <line x1="120" y1="440" x2="180" y2="440" stroke="#5D6D7E" stroke-width="1" opacity="0.25"/>
+        <line x1="150" y1="425" x2="150" y2="455" stroke="#5D6D7E" stroke-width="1" opacity="0.25"/>
+        <circle cx="150" cy="440" r="8" fill="none" stroke="#85929E" stroke-width="1" opacity="0.18"/>
+</svg>

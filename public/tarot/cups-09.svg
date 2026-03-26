@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#F5E6B8"/>
+    </linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4E6F1"/>
+      <stop offset="100%" stop-color="#AED6F1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 暖黄色背景（与大阿卡纳一致） -->
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+
+  
+    <!-- 外边框（与大阿卡纳统一金色） -->
+    <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+    <!-- 内边框角装饰 -->
+    <circle cx="24" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="24" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+
+  <!-- 场景区域 -->
+  <rect x="18" y="50" width="264" height="340" rx="8" fill="url(#scene)" opacity="0.5"/>
+
+  <!-- 顶部：编号 + 花色元素名 -->
+  <text x="30" y="42" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2E7D9B">9</text>
+  <text x="270" y="42" font-family="sans-serif" font-size="14" fill="#5DADE2" text-anchor="end" opacity="0.7">水</text>
+
+  <!-- 中央主体内容 -->
+  
+        <g transform="translate(120,160)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(180,160)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(120,190)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(180,190)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(150,210)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(120,230)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(180,230)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(120,260)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+        <g transform="translate(180,260)">
+          <path d="M-10.64,-6.84 Q-12.16,8.36 -2.28,12.16 L2.28,12.16 Q12.16,8.36 10.64,-6.84 Z" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-6.84" rx="10.64" ry="3.42" fill="#5DADE2" opacity="0.8"/>
+          <rect x="-1.9000000000000001" y="10.64" width="3.8000000000000003" height="4.56" fill="#2E7D9B"/>
+          <rect x="-6.460000000000001" y="14.44" width="12.920000000000002" height="2.28" rx="1.14" fill="#2E7D9B"/>
+          <ellipse cx="0" cy="-1.9000000000000001" rx="4.56" ry="2.28" fill="#5DADE2" opacity="0.3"/>
+        </g>
+
+  <!-- 底部：牌名 -->
+  <text x="150" y="408" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#2E7D9B" text-anchor="middle">圣杯九</text>
+  <text x="150" y="430" font-family="Georgia, serif" font-size="13" fill="#1A5276" text-anchor="middle" opacity="0.7">Nine of Cups</text>
+
+  
+        <path d="M100,440 Q125,425 150,440 Q175,425 200,440" fill="none" stroke="#2E7D9B" stroke-width="1.5" opacity="0.25"/>
+        <path d="M110,455 Q135,440 160,455 Q185,440 210,455" fill="none" stroke="#5DADE2" stroke-width="1" opacity="0.15"/>
+</svg>

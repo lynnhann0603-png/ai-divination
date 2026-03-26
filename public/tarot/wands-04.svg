@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#F5E6B8"/>
+    </linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#FFCC80"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 暖黄色背景（与大阿卡纳一致） -->
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+
+  
+    <!-- 外边框（与大阿卡纳统一金色） -->
+    <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+    <!-- 内边框角装饰 -->
+    <circle cx="24" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="24" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+
+  <!-- 场景区域 -->
+  <rect x="18" y="50" width="264" height="340" rx="8" fill="url(#scene)" opacity="0.5"/>
+
+  <!-- 顶部：编号 + 花色元素名 -->
+  <text x="30" y="42" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#C75B12">4</text>
+  <text x="270" y="42" font-family="sans-serif" font-size="14" fill="#E88D3E" text-anchor="end" opacity="0.7">火</text>
+
+  <!-- 中央主体内容 -->
+  
+        <g transform="translate(120,180)">
+          <rect x="-2.66" y="-17.1" width="5.32" height="32.3" rx="1.9000000000000001" fill="#C75B12"/>
+          <ellipse cx="0" cy="-19" rx="6.08" ry="7.6000000000000005" fill="#E88D3E" opacity="0.85"/>
+          <ellipse cx="0" cy="-21.28" rx="3.42" ry="4.56" fill="#FFB74D" opacity="0.9"/>
+          <circle cx="-1.14" cy="7.6000000000000005" r="1.52" fill="#8B4513" opacity="0.4"/>
+          <circle cx="1.14" cy="11.4" r="1.14" fill="#8B4513" opacity="0.3"/>
+        </g>
+        <g transform="translate(180,180)">
+          <rect x="-2.66" y="-17.1" width="5.32" height="32.3" rx="1.9000000000000001" fill="#C75B12"/>
+          <ellipse cx="0" cy="-19" rx="6.08" ry="7.6000000000000005" fill="#E88D3E" opacity="0.85"/>
+          <ellipse cx="0" cy="-21.28" rx="3.42" ry="4.56" fill="#FFB74D" opacity="0.9"/>
+          <circle cx="-1.14" cy="7.6000000000000005" r="1.52" fill="#8B4513" opacity="0.4"/>
+          <circle cx="1.14" cy="11.4" r="1.14" fill="#8B4513" opacity="0.3"/>
+        </g>
+        <g transform="translate(120,240)">
+          <rect x="-2.66" y="-17.1" width="5.32" height="32.3" rx="1.9000000000000001" fill="#C75B12"/>
+          <ellipse cx="0" cy="-19" rx="6.08" ry="7.6000000000000005" fill="#E88D3E" opacity="0.85"/>
+          <ellipse cx="0" cy="-21.28" rx="3.42" ry="4.56" fill="#FFB74D" opacity="0.9"/>
+          <circle cx="-1.14" cy="7.6000000000000005" r="1.52" fill="#8B4513" opacity="0.4"/>
+          <circle cx="1.14" cy="11.4" r="1.14" fill="#8B4513" opacity="0.3"/>
+        </g>
+        <g transform="translate(180,240)">
+          <rect x="-2.66" y="-17.1" width="5.32" height="32.3" rx="1.9000000000000001" fill="#C75B12"/>
+          <ellipse cx="0" cy="-19" rx="6.08" ry="7.6000000000000005" fill="#E88D3E" opacity="0.85"/>
+          <ellipse cx="0" cy="-21.28" rx="3.42" ry="4.56" fill="#FFB74D" opacity="0.9"/>
+          <circle cx="-1.14" cy="7.6000000000000005" r="1.52" fill="#8B4513" opacity="0.4"/>
+          <circle cx="1.14" cy="11.4" r="1.14" fill="#8B4513" opacity="0.3"/>
+        </g>
+
+  <!-- 底部：牌名 -->
+  <text x="150" y="408" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#C75B12" text-anchor="middle">权杖四</text>
+  <text x="150" y="430" font-family="Georgia, serif" font-size="13" fill="#8B4513" text-anchor="middle" opacity="0.7">Four of Wands</text>
+
+  
+        <line x1="150" y1="420" x2="150" y2="458" stroke="#C75B12" stroke-width="1.5" opacity="0.25"/>
+        <circle cx="150" cy="416" r="4" fill="#E88D3E" opacity="0.3"/>
+        <circle cx="135" cy="440" r="2.5" fill="#C75B12" opacity="0.2"/>
+        <circle cx="165" cy="440" r="2.5" fill="#C75B12" opacity="0.2"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#F5E6B8"/>
+    </linearGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D5F5E3"/>
+      <stop offset="100%" stop-color="#A9DFBF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 暖黄色背景（与大阿卡纳一致） -->
+  <rect width="300" height="500" rx="16" fill="url(#bg)"/>
+
+  
+    <!-- 外边框（与大阿卡纳统一金色） -->
+    <rect x="12" y="12" width="276" height="476" rx="12" fill="none" stroke="#C4A44E" stroke-width="2.5"/>
+    <!-- 内边框角装饰 -->
+    <circle cx="24" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="24" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="24" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+    <circle cx="276" cy="476" r="2.5" fill="#C4A44E" opacity="0.6"/>
+
+  <!-- 场景区域 -->
+  <rect x="18" y="50" width="264" height="340" rx="8" fill="url(#scene)" opacity="0.5"/>
+
+  <!-- 顶部：编号 + 花色元素名 -->
+  <text x="30" y="42" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#B8860B">2</text>
+  <text x="270" y="42" font-family="sans-serif" font-size="14" fill="#DAA520" text-anchor="end" opacity="0.7">土</text>
+
+  <!-- 中央主体内容 -->
+  
+        <g transform="translate(150,175)">
+          <circle cx="0" cy="0" r="14.44" fill="none" stroke="#B8860B" stroke-width="1.71"/>
+          <circle cx="0" cy="0" r="12.16" fill="none" stroke="#DAA520" stroke-width="0.76" opacity="0.5"/>
+          <path d="M0.00,-9.12L2.46,-3.38L8.67,-2.82L3.98,1.29L5.36,7.38L0.00,4.18L-5.36,7.38L-3.98,1.29L-8.67,-2.82L-2.46,-3.38Z" fill="#B8860B" opacity="0.85"/>
+        </g>
+        <g transform="translate(150,245)">
+          <circle cx="0" cy="0" r="14.44" fill="none" stroke="#B8860B" stroke-width="1.71"/>
+          <circle cx="0" cy="0" r="12.16" fill="none" stroke="#DAA520" stroke-width="0.76" opacity="0.5"/>
+          <path d="M0.00,-9.12L2.46,-3.38L8.67,-2.82L3.98,1.29L5.36,7.38L0.00,4.18L-5.36,7.38L-3.98,1.29L-8.67,-2.82L-2.46,-3.38Z" fill="#B8860B" opacity="0.85"/>
+        </g>
+
+  <!-- 底部：牌名 -->
+  <text x="150" y="408" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#B8860B" text-anchor="middle">星币二</text>
+  <text x="150" y="430" font-family="Georgia, serif" font-size="13" fill="#6B4226" text-anchor="middle" opacity="0.7">Two of Pentacles</text>
+
+  
+        <circle cx="150" cy="440" r="12" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.25"/>
+        <circle cx="150" cy="440" r="6" fill="#DAA520" opacity="0.12"/>
+        <path d="M150.00,430.00L152.35,436.76L159.51,436.91L153.80,441.24L155.88,448.09L150.00,444.00L144.12,448.09L146.20,441.24L140.49,436.91L147.65,436.76Z" fill="#B8860B" opacity="0.18"/>
+</svg>
