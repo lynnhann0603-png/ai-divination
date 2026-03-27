@@ -2482,3 +2482,115 @@ textarea {
     height: 190px;
   }
 }
+
+/* ===== 可读性优化覆盖（2026-03） ===== */
+:root {
+  --panel: rgba(16, 12, 9, 0.93);
+  --panel-soft: rgba(18, 14, 10, 0.89);
+  --line: rgba(214, 184, 122, 0.28);
+  --text: #f6efdf;
+  --text-soft: #d7c8ab;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.62);
+}
+
+.cosmic-layer {
+  overflow: hidden;
+  z-index: 1;
+  opacity: 0.62;
+}
+
+.app-content {
+  z-index: 3;
+}
+
+body::before {
+  opacity: 0.28;
+}
+
+body::after {
+  background: rgba(180, 140, 60, 0.12);
+  filter: blur(110px);
+}
+
+.home-title,
+.page-title,
+.result-title {
+  text-shadow:
+    0 2px 14px rgba(0, 0, 0, 0.58),
+    0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+.result-card,
+.placeholder-card,
+.loading-card,
+.error-banner {
+  background: rgba(20, 15, 10, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.metric-item,
+.reading-card,
+.list-card,
+.timeline-item,
+.tarot-card,
+.info-card {
+  background: rgba(16, 12, 8, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+label span {
+  color: #efe2c7;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  background: rgba(5, 13, 27, 0.78);
+  border: 1px solid rgba(184, 203, 255, 0.24);
+}
+
+.cosmic-moon,
+.cosmic-moon-small,
+.cosmic-planet-1,
+.cosmic-planet-2,
+.cosmic-star {
+  z-index: 1;
+}
+
+.cosmic-moon {
+  opacity: 0.8;
+}
+
+.cosmic-moon-small {
+  opacity: 0.72;
+}
+
+.cosmic-planet-1,
+.cosmic-planet-2 {
+  opacity: 0.62;
+}
+
+.cosmic-star {
+  filter: drop-shadow(0 0 8px rgba(255, 240, 200, 0.28));
+}
+
+.cosmic-nebula,
+.astrolabe-ring,
+.astrolabe-ring-2 {
+  z-index: 0;
+}
+
+.astrolabe-ring {
+  border: 1.5px solid rgba(220, 190, 130, 0.36);
+  box-shadow:
+    0 0 28px rgba(210, 180, 120, 0.12),
+    inset 0 0 18px rgba(210, 180, 120, 0.08);
+  opacity: 0.34;
+}
+
+.astrolabe-ring-2 {
+  border: 1.5px dashed rgba(220, 190, 130, 0.24);
+  box-shadow: 0 0 16px rgba(200, 170, 120, 0.08);
+  opacity: 0.22;
+}
