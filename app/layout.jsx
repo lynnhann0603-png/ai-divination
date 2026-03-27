@@ -1,4 +1,5 @@
 import './globals.css';
+import './theme-foundation.css';
 
 export const metadata = {
   title: 'AI 占星阁 · 正式版 MVP',

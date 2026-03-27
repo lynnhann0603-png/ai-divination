@@ -454,7 +454,7 @@ export default function TarotPage() {
                   ))}
                 </select>
               </label>
-              <div className="info-card">
+              <div className="info-card antique-form-info">
                 <span className="muted-line">当前牌阵说明</span>
                 <strong>{selectedSpread.name}</strong>
                 <p>{selectedSpread.description}</p>

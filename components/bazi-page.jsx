@@ -856,7 +856,7 @@ export default function BaziPage() {
         </div>
 
         <div className="split-layout">
-          <form className="card inner-panel form-panel" onSubmit={handleSubmit}>
+          <form className="card inner-panel form-panel antique-form-panel" onSubmit={handleSubmit}>
             <div className="form-grid">
               <label>
                 <span>性别</span>
