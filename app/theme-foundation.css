@@ -97,8 +97,6 @@ body::after {
 
 /* ===== Typography accents ===== */
 .home-title,
-.page-title,
-.result-title,
 .theme-gold-text {
   font-family: var(--font-serif);
   background: linear-gradient(180deg, var(--gold-300), var(--gold-500), var(--gold-700));
@@ -106,6 +104,16 @@ body::after {
   background-clip: text;
   color: transparent;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.85);
+}
+
+.page-title,
+.result-title {
+  font-family: var(--font-serif);
+  background: none !important;
+  color: #f2d58b !important;
+  -webkit-text-fill-color: currentColor;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85), 0 0 10px rgba(0, 0, 0, 0.28);
+  letter-spacing: 0.01em;
 }
 
 /* ===== Card system ===== */
@@ -566,6 +574,11 @@ textarea {
   color: var(--text-on-paper);
 }
 
+.antique-form-panel .toggle-label-text {
+  color: #5c3e21 !important;
+  font-weight: 700;
+}
+
 .antique-form-panel .zishi-alert {
   border: 1px solid rgba(163, 124, 67, 0.45);
   background: rgba(232, 220, 196, 0.75);
@@ -589,18 +602,20 @@ textarea {
 
 .antique-form-panel .antique-form-info {
   border-radius: 8px;
-  border: 1px solid rgba(163, 124, 67, 0.5);
-  background: rgba(250, 238, 219, 0.7);
+  border: 1px solid rgba(163, 124, 67, 0.52);
+  background: rgba(250, 238, 219, 0.82);
   box-shadow: inset 0 0 24px rgba(139, 69, 19, 0.08);
+  color: #3e2723;
 }
 
 .antique-form-panel .antique-form-info strong {
-  color: var(--text-on-paper);
+  color: #3e2723;
 }
 
 .antique-form-panel .antique-form-info p,
 .antique-form-panel .antique-form-info .muted-line {
-  color: #6c5338;
+  color: #5f4630;
+  line-height: 1.65;
 }
 
 .antique-pick-phase {

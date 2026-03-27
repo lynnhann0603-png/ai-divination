@@ -430,7 +430,7 @@ export default function TarotPage() {
 
         <div className="split-layout split-layout-tight">
           {/* 左侧：输入表单（INPUT 阶段始终展示，其他阶段收起） */}
-          <form className="card inner-panel form-panel" onSubmit={handleStartPick}>
+          <form className="card inner-panel form-panel antique-form-panel" onSubmit={handleStartPick}>
             <div className="form-grid">
               <label className="span-2">
                 <span>你的问题</span>
