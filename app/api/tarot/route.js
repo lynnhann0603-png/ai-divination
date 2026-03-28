@@ -85,7 +85,8 @@ ${cardDescriptions}
 {
   "interpretation": "将上述 Workflow 中的步骤 1-4（破冰共情、整体能量感知、牌阵逐一解析、牌与牌的化学反应）的内容合并写在这里。控制在 220-500 字。",
   "action_guide": "将上述 Workflow 中的步骤 5（行动指引与祝福）的内容写在这里。给出 2-3 条具体、可落地的建议，每条用序号开头。最后以一句温暖的祝福收尾。控制在 80-180 字。"
-};
+}
+`;
 }
 
 export async function POST(request) {
