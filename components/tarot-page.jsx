@@ -352,14 +352,11 @@ export default function TarotPage() {
     setError('');
 
     try {
-      const [response] = await Promise.all([
-        fetch('/api/tarot', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ ...form, pickedNumbers })
-        }),
-        new Promise((resolve) => setTimeout(resolve, 2200))
-      ]);
+      const response = await fetch('/api/tarot', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form, pickedNumbers })
+      });
 
       if (!response.ok) {
         let errMsg = '塔罗结果生成失败';

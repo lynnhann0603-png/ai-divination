@@ -159,40 +159,6 @@ function PaipanAnimation({ profile, onComplete }) {
   );
 }
 
-/* ===== 思维链面板 ===== */
-function ReasoningPanel({ reasoning, isThinking }) {
-  const panelRef = useRef(null);
-  const [expanded, setExpanded] = useState(true);
-
-  useEffect(() => {
-    if (panelRef.current && expanded) {
-      panelRef.current.scrollTop = panelRef.current.scrollHeight;
-    }
-  }, [reasoning, expanded]);
-
-  if (!reasoning && !isThinking) return null;
-
-  return (
-    <div className={`reasoning-panel ${expanded ? 'expanded' : 'collapsed'}`}>
-      <div className="reasoning-header" onClick={() => setExpanded(!expanded)}>
-        <div className="reasoning-header-left">
-          <span className="reasoning-icon">🧠</span>
-          <span className="reasoning-title">AI 思维链 {isThinking && <span className="thinking-dot">●</span>}</span>
-        </div>
-        <button className="reasoning-toggle">{expanded ? '收起' : '展开'}</button>
-      </div>
-      {expanded && (
-        <div className="reasoning-body" ref={panelRef}>
-          <p className="reasoning-text">
-            {reasoning || '正在启动深度推理……'}
-            {isThinking && <span className="cursor-blink">▌</span>}
-          </p>
-        </div>
-      )}
-    </div>
-  );
-}
-
 /* ===== 命理小知识轮播 ===== */
 function BaziTipCarousel({ dayElement }) {
   const [tipIndex, setTipIndex] = useState(0);
@@ -232,7 +198,7 @@ function AIProgressBar({ completedCount, totalCount, isThinking }) {
         <div className="ai-progress-fill" style={{ width: `${pct}%` }} />
       </div>
       {isThinking && completedCount === 0 && (
-        <p className="ai-progress-hint">R1 正在深度思考，首帧内容即将到达……</p>
+        <p className="ai-progress-hint">AI 正在组织命盘解读，首屏内容即将到达……</p>
       )}
     </div>
   );
@@ -442,7 +408,7 @@ function MonthlyFortuneContent({ fallbackTimeline, aiMonthly, focus }) {
 }
 
 /* =============== 主结果组件 =============== */
-function BaziResult({ profile, aiData, streaming, visibleCards, reasoning, isThinking, completedSections }) {
+function BaziResult({ profile, aiData, streaming, visibleCards, isThinking, completedSections }) {
   const dr = profile.destinyReading;
 
   /* 判断每张卡片的状态 */
@@ -477,9 +443,6 @@ function BaziResult({ profile, aiData, streaming, visibleCards, reasoning, isThi
 
   return (
     <div className="result-stack">
-      {/* 思维链面板 */}
-      <ReasoningPanel reasoning={reasoning} isThinking={isThinking} />
-
       {/* AI 进度条 */}
       {streaming && (
         <AIProgressBar
@@ -646,8 +609,7 @@ export default function BaziPage() {
   const [visibleCards, setVisibleCards] = useState(0);
 
   // 新增状态
-  const [phase, setPhase] = useState('idle'); // 'idle' | 'paipan' | 'result'
-  const [reasoning, setReasoning] = useState('');
+  const [phase, setPhase] = useState('idle'); // 'idle' | 'result'
   const [isThinking, setIsThinking] = useState(false);
   const [completedSections, setCompletedSections] = useState({});
 
@@ -750,7 +712,6 @@ export default function BaziPage() {
     setStreaming(false);
     setVisibleCards(0);
     setPhase('idle');
-    setReasoning('');
     setIsThinking(false);
     setCompletedSections({});
 
@@ -797,10 +758,7 @@ export default function BaziPage() {
                 setProfile(msg.data);
                 setStreaming(true);
                 setIsThinking(true);
-                setPhase('paipan'); // 进入排盘动画阶段
-              } else if (msg.type === 'reasoning_chunk') {
-                // R1 思维链内容
-                setReasoning(prev => prev + msg.data);
+                setPhase('result'); // 直接进入结果页，取消动画门槛
               } else if (msg.type === 'ai_chunk') {
                 // AI 内容输出开始，思考阶段结束
                 setIsThinking(false);
@@ -1052,7 +1010,6 @@ export default function BaziPage() {
                 aiData={aiData}
                 streaming={streaming}
                 visibleCards={visibleCards}
-                reasoning={reasoning}
                 isThinking={isThinking}
                 completedSections={completedSections}
               />

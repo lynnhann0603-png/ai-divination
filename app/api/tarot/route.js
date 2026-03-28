@@ -83,9 +83,9 @@ ${cardDescriptions}
 请严格按以下 JSON 格式输出，不要输出任何 JSON 之外的内容：
 
 {
-  "interpretation": "将上述 Workflow 中的步骤 1-4（破冰共情、整体能量感知、牌阵逐一解析、牌与牌的化学反应）的内容合并写在这里。控制在 400-1000 字。",
-  "action_guide": "将上述 Workflow 中的步骤 5（行动指引与祝福）的内容写在这里。给出 2-3 条具体、可落地的建议，每条用序号开头。最后以一句温暖的祝福收尾。控制在 150-400 字。"
-}`;
+  "interpretation": "将上述 Workflow 中的步骤 1-4（破冰共情、整体能量感知、牌阵逐一解析、牌与牌的化学反应）的内容合并写在这里。控制在 220-500 字。",
+  "action_guide": "将上述 Workflow 中的步骤 5（行动指引与祝福）的内容写在这里。给出 2-3 条具体、可落地的建议，每条用序号开头。最后以一句温暖的祝福收尾。控制在 80-180 字。"
+};
 }
 
 export async function POST(request) {
@@ -120,8 +120,8 @@ export async function POST(request) {
         model: 'deepseek-chat',
         messages: [{ role: 'user', content: prompt }],
         stream: true,
-        temperature: 0.85,
-        max_tokens: 3000
+        temperature: 0.7,
+        max_tokens: 1200
       })
     });
 

@@ -52,30 +52,30 @@ ${p.monthlyGanzhiList}
 请严格按以下 JSON 格式输出，不要输出任何 JSON 之外的内容：
 
 {
-  "patternAnalysis": "格局气象分析。先客观列出格局气象、身强身弱的判断依据，再分析关键用神与忌神的作用关系。必须根据命盘推演，不作主观臆测。200-350字。",
+  "patternAnalysis": "格局气象分析。先客观列出格局气象、身强身弱的判断依据，再分析关键用神与忌神的作用关系。必须根据命盘推演，不作主观臆测。120-220字。",
 
-  "personality": "性格特征与外貌气质。基于日主五行、身强身弱、时辰特征，推断用户的性格特点、行为模式和外貌气质。要具体、有画面感。200-350字。",
+  "personality": "性格特征与外貌气质。基于日主五行、身强身弱、时辰特征，推断用户的性格特点、行为模式和外貌气质。要具体、有画面感。120-220字。",
 
   "pastYears": [
-    { "year": "从「过去5年流年干支」数据中选取第1个关键年份（必须是${p.currentYear - 5}~${p.currentYear - 1}之间的数字）", "text": "基于该年流年干支与命盘日主的十神生克关系，推测当时发生的具体变动（如事业转折、人际重组、居住变化等）。必须引用该年的流年干支和十神来分析，不可凭空编造。150-250字。" },
-    { "year": "从「过去5年流年干支」数据中选取第2个关键年份（必须是${p.currentYear - 5}~${p.currentYear - 1}之间的数字）", "text": "同上要求，基于该年流年干支与十神进行分析。150-250字。" }
+    { "year": "从「过去5年流年干支」数据中选取第1个关键年份（必须是${p.currentYear - 5}~${p.currentYear - 1}之间的数字）", "text": "基于该年流年干支与命盘日主的十神生克关系，推测当时发生的具体变动（如事业转折、人际重组、居住变化等）。必须引用该年的流年干支和十神来分析，不可凭空编造。90-160字。" },
+    { "year": "从「过去5年流年干支」数据中选取第2个关键年份（必须是${p.currentYear - 5}~${p.currentYear - 1}之间的数字）", "text": "同上要求，基于该年流年干支与十神进行分析。90-160字。" }
   ],
 
-  "metaphor": "兵器或乐器比喻。用一个具体的物品（兵器、乐器或器物皆可）来比喻这张命盘，比喻要贴切、有哲理，能让人'哦原来我是这样的'的感觉。200-300字。",
+  "metaphor": "兵器或乐器比喻。用一个具体的物品（兵器、乐器或器物皆可）来比喻这张命盘，比喻要贴切、有哲理，能让人'哦原来我是这样的'的感觉。120-180字。",
 
-  "talent": "才华与转化。指出用户最出色的才华是什么，适合在哪些具体领域发挥，以及如何将天赋转化为实际价值。200-300字。",
+  "talent": "才华与转化。指出用户最出色的才华是什么，适合在哪些具体领域发挥，以及如何将天赋转化为实际价值。120-180字。",
 
-  "career": "事业形态。建议适合的事业路径和发展模式，要具体到行业方向和发展策略，不要泛泛而谈。200-300字。",
+  "career": "事业形态。建议适合的事业路径和发展模式，要具体到行业方向和发展策略，不要泛泛而谈。120-180字。",
 
-  "sideBusiness": "副业方向。结合五行喜用神，提供具体可操作的副业建议，要有新意，不落俗套。150-250字。",
+  "sideBusiness": "副业方向。结合五行喜用神，提供具体可操作的副业建议，要有新意，不落俗套。100-160字。",
 
-  "partner": "伴侣轮廓。描述最适合的伴侣的性格特征、行为模式和相处方式。要有画面感，让人能'对号入座'。200-300字。",
+  "partner": "伴侣轮廓。描述最适合的伴侣的性格特征、行为模式和相处方式。要有画面感，让人能'对号入座'。120-180字。",
 
-  "fateScene": "宿命感片段。描绘一个有宿命感的相遇场景，要有具体的时间、地点、氛围细节，像一段电影画面。150-250字。",
+  "fateScene": "宿命感片段。描绘一个有宿命感的相遇场景，要有具体的时间、地点、氛围细节，像一段电影画面。100-160字。",
 
-  "selfHarm": "自我折损隐患。指出需要警惕的潜意识习惯或思维模式，要切中要害、有建设性，不是泛泛的心灵鸡汤。150-250字。",
+  "selfHarm": "自我折损隐患。指出需要警惕的潜意识习惯或思维模式，要切中要害、有建设性，不是泛泛的心灵鸡汤。100-160字。",
 
-  "beneficialName": "补益字号。提供一个有补益作用的字号建议（可用于笔名、网名或个人品牌名），说明取字的五行用意和美好寓意。100-200字。",
+  "beneficialName": "补益字号。提供一个有补益作用的字号建议（可用于笔名、网名或个人品牌名），说明取字的五行用意和美好寓意。60-120字。",
 
   "monthlyFortune": [
     {
@@ -83,7 +83,7 @@ ${p.monthlyGanzhiList}
       "ganzhi": "该月流月干支",
       "shiShen": "该月天干对日主的十神",
       "title": "用4-6个字概括该月主题",
-      "content": "该月详细运势分析，需涵盖${p.focus}方向的重点分析，以及整体生活节奏建议。说清楚这个月适合做什么、不适合做什么、该如何化解或面对。150-250字。",
+      "content": "该月详细运势分析，需涵盖${p.focus}方向的重点分析，以及整体生活节奏建议。说清楚这个月适合做什么、不适合做什么、该如何化解或面对。80-140字。",
       "level": "strong/steady/careful 三选一，strong=适合发力推进，steady=稳步布局，careful=回收调整"
     },
     "... 共12个月，从正月到腊月"
@@ -151,7 +151,7 @@ export async function POST(request) {
 
     const prompt = buildBaziPrompt(profile.promptData);
 
-    // 发起 DeepSeek API 请求 — 使用 deepseek-reasoner (R1)
+    // 发起 DeepSeek API 请求 — 优先速度（deepseek-chat）
     const deepseekResponse = await fetch('https://api.deepseek.com/chat/completions', {
       method: 'POST',
       headers: {
@@ -159,10 +159,11 @@ export async function POST(request) {
         'Authorization': `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: 'deepseek-reasoner',
+        model: 'deepseek-chat',
         messages: [{ role: 'user', content: prompt }],
         stream: true,
-        max_tokens: 8000
+        temperature: 0.7,
+        max_tokens: 2200
       })
     });
 
@@ -207,15 +208,6 @@ export async function POST(request) {
               try {
                 const parsed = JSON.parse(jsonStr);
                 const delta = parsed.choices?.[0]?.delta;
-
-                // R1 模型的思维链内容
-                if (delta?.reasoning_content) {
-                  fullReasoning += delta.reasoning_content;
-                  controller.enqueue(encoder.encode(`data: ${JSON.stringify({
-                    type: 'reasoning_chunk',
-                    data: delta.reasoning_content
-                  })}\n\n`));
-                }
 
                 // 最终输出内容
                 if (delta?.content) {
